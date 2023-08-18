@@ -22,7 +22,7 @@ roles:
   - key: grad
     name: Graduate Students (Main advisor)
   - key: coadviced
-    name: Graduate Students (Co-advised)
+    name: Graduate Students (Co-advisor)
   - key: ugrad
     name: Undergraduate Students
   - key: ugrad-alum
