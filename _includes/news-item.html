@@ -8,23 +8,15 @@
 {% endif %}
 
 {% capture news %}
-    <div>
-        {% if post.shortnews %}
-            {{ post.content | markdownify | remove: '<p>' | remove: '</p>' }}
-        {% else %}
-            <h5> <a href="{{ site.base }}{{ post.url }}"> {{ post.title }} </a> </h5>
-            {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
-            <br>
-            <a href="{{ site.base }}{{ post.url }}"> Read more &raquo;</a>
-        {% endif %}
-    </div>
+    <span>
+        {{ post.content | markdownify | remove: '<p>' | remove: '</p>' }}
+    </span>
 {% endcapture %}
 
 {% capture header %}
 <span class="fa fa-fw fa-{{ icon }}"></span>
-<span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+<span class="date">{{ post.date | date: '%B %Y' }}</span>
 {% endcapture %}
-
 <li class="{{ class }}">
     {% if post.image %}
 
@@ -34,21 +26,15 @@
                  src="{{ post.image }}">
         {% endcapture %}
 
-        <div class="row">
-            <div class="col-sm-10">
+        <span class="row">
+            <span class="col-sm-10">
                 {{ header }}
                 {{ news }}
-            </div>
-            <div class="col-sm-2">
-                {% if post.image_link %}
-                    <a href="{{ post.image_link }}">{{ img }}</a>
-                {% else %}
-                    {{ img }}
-                {% endif %}
-            </div>
-        </div>
+            </span>
+
+        </span>
      {% else %}
         {{ header }}
         {{ news }}
     {% endif %}
-</li>
+    </li>

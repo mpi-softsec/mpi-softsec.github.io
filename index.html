@@ -5,16 +5,19 @@ notitle: true
 
 # groups of columns of {roles: list, width: num, image: bool}
 role-tables:
-- - roles: [faculty, postdoc, staff]
-    width: 4
-    image: true
-  - roles: [grad]
+- - roles: [grad, intern]
     width: 8
     image: true
-- - roles: [collab, ugrad, ugrad-alum]
-    width: 5
-    image: false
+  - roles: [faculty, postdoc]
+    width: 4
+    image: true
+- - roles: [postdoc-alum]
+    width: 3.2
+    image: true
   - roles: [alum]
+    width: 3.2
+    image: true
+  - roles: [intern-alum]
     width: 7
     image: false
 
@@ -22,8 +25,8 @@ role-tables:
 
 <div class="jumbotron">
     <p>
-        The <b>Awesome Research Group</b> at <b>Example U</b> does all sorts of
-        research. Here is a place where we tell you exactly what that is!
+        This is the <b>Software Security group</b> lead by Dr <a href="https://mboehme.github.io">Marcel B&ouml;hme</a> at the Max Planck Institute for Security and Privacy (MPI-SP) in Germany.
+        The group's main interest is in the automatic discovery of security flaws at the very large scale. One part of this group develops the probabilistic foundations of automatic software testing (i.e., finding bugs by generating executions) to elucidate fundamental limitations of existing techniques and to explore the assurances that software testing provides when no bugs are found. The other part of this group develops practical vulnerability discovery tools that are widely used in software security practice. For instance, Entropic is the default power schedule in LibFuzzer which powers the largest fuzzing platforms at Google and Microsoft, fuzzing hundreds of security-critical projects on 100k machines 24/7. His tools have discovered 100+ bugs in widely-used software systems, more than 70 of which are security-critical vulnerabilities registered as CVEs at the US National Vulnerability Database.
     </p>
 </div>
 
@@ -34,6 +37,11 @@ role-tables:
             {% include news-item.html item=post %}
         {% endfor %}
     </ul>
+    <!--table>
+        {% for post in site.posts limit: site.front_page_news %}
+            {% include news-item.html item=post %}
+        {% endfor %}
+    </table-->
     {% assign numposts = site.posts | size %}
     {% if numposts >= 1 %}
         <p>
@@ -43,7 +51,7 @@ role-tables:
     {% endif %}
 </section>
 
-<section>
+<!--section>
     <h2>Research</h2>
     <div class="card-columns">
         {% comment %}
@@ -57,7 +65,7 @@ role-tables:
             {% endif %}
         {% endfor %}
     </div>
-</section>
+</section-->
 
 <div id="people">
     <h2>People</h2>

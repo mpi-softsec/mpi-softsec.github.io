@@ -1,161 +1,116 @@
-
-prof-a:
-    display_name: "Prof A"
+marcel:
+    display_name: "Marcel B&ouml;hme"
+    webpage: "https://mboehme.github.io"
+    github: mboehme
     role: faculty
+    image: /img/people/marcel.jpeg
+    bio: Faculty member
 
-prof-b:
-    display_name: "Prof B"
-    role: faculty
-
-prof-c:
-    display_name: "Prof C"
-    role: faculty
-
-profx:
-    display_name: "Professor X"
-    webpage: "http://en.wikipedia.org/wiki/Professor_X"
-    github: profx
-    role: faculty
-    image: /img/people/prof-x.png
-    bio: Professor
-
-scott:
-    display_name: "Scott Summers"
-    webpage: "http://en.wikipedia.org/wiki/Cyclops_(comics)"
-    role: staff
-    image: /img/people/scott.png
-    bio: aka Cyclops
-
-wolverine:
-    display_name: "Wolverine"
-    webpage: "http://en.wikipedia.org/wiki/Wolverine_%28comics%29"
-    github: wolverine
+seongmin:
+    display_name: "Seongmin Lee"
+    webpage: "https://nimgnoeseel.github.io/"
     role: postdoc
+    image: /img/people/seongmin.jpeg
+    bio: Research Fellow
 
-storm:
-    display_name: "Storm"
-    webpage: "http://en.wikipedia.org/wiki/Storm_%28Marvel_Comics%29"
+danushka:
+    display_name: "Danushka Liyanage"
+    image: /img/people/danushka.jpeg
+    webpage: "https://au.linkedin.com/in/danushka-liyanage"
     role: grad
-    image: /img/people/storm.png
+    bio: PhD Candidate (Monash U, Australia)
 
-grad-a:
-    display_name: "Grad A"
+niklas:
+    display_name: "Niklas Risse"
+    image: /img/people/niklas.jpeg
+    webpage: "https://de.linkedin.com/in/niklas-risse-576764174"
     role: grad
+    bio: PhD Student (MPI-SP / CASA / RUB, Germany)
 
-grad-b:
-    display_name: "Graduate Student B With Long Name"
+octavio:
+    display_name: "Octavio Galland"
     role: grad
+    bio: PhD Student (MPI-SP / CASA / RUB, Germany)
 
-grad-c:
-    display_name: "Grad C"
-    role: grad
+simran:
+    display_name: "Simran Kathpalia"
+    image: /img/people/simran.jpeg
+    webpage: https://de.linkedin.com/in/simran-kathpalia-31539b1a4
+    role: intern
+    bio: "Amrita University, India"
 
-grad-d:
-    display_name: "Grad D"
-    role: grad
+abhishek:
+    display_name: "Abhishek Shah"
+    image: /img/people/abhishek.jpeg
+    webpage: https://www.cs.columbia.edu/~ass/
+    role: intern
+    bio: "Columbia University, US"
 
-grad-e:
-    display_name: "Grad E"
-    role: grad
+rafaila:
+    display_name: "Rafaila Galanopoulou"
+    image: /img/people/rafaila.jpeg
+    webpage: https://gr.linkedin.com/in/rafaila-galanopoulou-216460168
+    role: intern
+    bio: "Athens University, Greece"
 
-grad-f:
-    display_name: "Grad F"
-    role: grad
+zahra:
+    display_name: "Zahra Mirzamomen"
+    image: /img/people/zahra.jpeg
+    webpage: https://au.linkedin.com/in/zahra-mirzamomen
+    role: postdoc-alum
+    bio: "PostDoc 2020-23. Now at Monash University."
 
-grad-g:
-    display_name: "Grad G"
-    role: grad
+thuan:
+    display_name: "Van-Thuan Pham"
+    image: /img/people/thuan.jpeg
+    webpage: https://thuanpv.github.io/
+    role: postdoc-alum
+    bio: "PostDoc 2018-20. Now faculty at University of Melbourne."
 
-grad-h:
-    display_name: "Grad H"
-    role: grad
+behrad:
+    display_name: "Behrad Garmany"
+    role: postdoc-alum
+    bio: "PostDoc 2022."
 
-grad-i:
-    display_name: "Grad I"
-    role: grad
-
-alum-a:
-    display_name: "Alum A"
+charaka:
+    display_name: "Charaka Geethal Kapugama"
     role: alum
-    bio: "Ph.D., 2013. Now at Microsoft Research."
+    image: /img/people/charaka.jpeg
+    webpage: https://www.sci.ruh.ac.lk/computer/academic_staff_profile.php?id=901
+    bio: "PhD 2023. Now faculty at University of Ruhuna, Sri Lanka."
 
-alum-b:
-    display_name: "Alum B With Way Longer Name"
-    role: alum
+anjana:
+     display_name: "Anjana Perera"
+     role: alum
+     image: /img/people/anjana.jpeg
+     webpage: https://anjana-perera.github.io/
+     bio: "PhD 2022. Now PostDoc at Oracle Labs, Australia."
 
-alum-c:
-    display_name: "Alum C"
-    role: alum
-    webpage: "https://www.google.com"
+shreyas:
+    display_name: "Shreyas Minocha"
+    webpage: https://shreyasminocha.me/
+    role: intern-alum
+    bio: "2023. Rice University, US"
 
-alum-d:
-    display_name: "Alum D"
-    role: alum
+stephan:
+    display_name: "Stephan Lipp"
+    webpage: "https://www.cs.cit.tum.de/sse/lipp/"
+    role: intern-alum
+    bio: "2022. TU Munich, Germany"
 
-alum-e:
-    display_name: "Alum E"
-    role: alum
+dongjia:
+    display_name: "Dongjia Zhang"
+    webpage: https://www.eurecom.fr/en/people/zhang-dongjia
+    role: intern-alum
+    bio: "2022. Tokyo University, Japan."
 
-alum-f:
-    display_name: "Alum F"
-    role: alum
+christian:
+    display_name: "Christian Presa Schnell"
+    webpage: https://blog.trailofbits.com/2022/04/26/improving-the-state-of-go-fuzz/
+    role: intern-alum
+    bio: "2022. TU Munich, Germany"
 
-alum-g:
-    display_name: "Alum G"
-    role: alum
-
-alum-h:
-    display_name: "Alum H"
-    role: alum
-
-alum-i:
-    display_name: "Alum I"
-    role: alum
-
-collab-a:
-    display_name: "Collaborator A"
-    role: collab
-
-collab-b:
-    display_name: "Collaborator B With Long Name"
-    role: collab
-
-collab-c:
-    display_name: "Collaborator C"
-    role: collab
-
-collab-d:
-    display_name: "Collaborator D"
-    role: collab
-
-collab-e:
-    display_name: "Collaborator E"
-    role: collab
-
-ugrad-a:
-    display_name: "Ugrad A"
-    role: ugrad
-
-ugrad-b:
-    display_name: "Ugrad Student B With Long Name"
-    role: ugrad
-
-ugrad-c:
-    display_name: "Ugrad C"
-    role: ugrad
-
-ugrad-d:
-    display_name: "Ugrad D"
-    role: ugrad
-
-ugrad-e:
-    display_name: "Ugrad E"
-    role: ugrad
-
-ugrad-alum-a:
-    display_name: "Past Ugrad A"
-    role: ugrad-alum
-
-ugrad-alum-b:
-    display_name: "Past Ugrad Student B With Long Name"
-    role: ugrad-alum
+octavio2:
+    display_name: "Octavio Galland"
+    role: intern-alum
+    bio: "2022. U. of Buenos Aires, Argentina"

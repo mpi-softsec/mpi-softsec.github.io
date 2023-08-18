@@ -1,5 +1,5 @@
-name: Awesome Research Group
-url: http://awesome.example.edu
+name: Böhme Research Group
+url: https://mpi-softsec.github.io/
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
@@ -16,13 +16,19 @@ roles:
   - key: staff
     name: Staff
   - key: postdoc
-    name: Researchers
+    name: Research Fellows
+  - key: postdoc-alum
+    name: Past Research Fellows
   - key: grad
     name: Graduate Students
   - key: ugrad
     name: Undergraduate Students
   - key: ugrad-alum
     name: Past Undergraduate Students
+  - key: intern
+    name: "Interns and Visiting Researchers"
+  - key: intern-alum
+    name: "Past Interns and Visiting Researchers"
   - key: collab
     name: Collaborators
   - key: alum
@@ -45,8 +51,6 @@ navigation:
     link: /
   - title: People
     link: /#people
-  - title: Research
-    link: /research.html
   - title: Publications
     link: /publications.html
   - title: Code
