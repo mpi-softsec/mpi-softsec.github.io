@@ -32,6 +32,13 @@ octavio:
     role: grad
     bio: PhD Student (MPI-SP / CASA / RUB, Germany)
 
+zac:
+    display_name: "Zac Hatfield-Dodds"
+    image: /img/people/zac.jpeg
+    webpage: https://zhd.dev/
+    role: grad
+    bio: "PhD student (ANU, co-advised, on leave @ Anthropic)"
+
 simran:
     display_name: "Simran Kathpalia"
     image: /img/people/simran.jpeg
@@ -84,7 +91,7 @@ anjana:
      role: alum
      image: /img/people/anjana.jpeg
      webpage: https://anjana-perera.github.io/
-     bio: "PhD 2022. Now PostDoc at Oracle Labs, Australia."
+     bio: "PhD 2022 (co-adviced). Now PostDoc at Oracle Labs, Australia."
 
 shreyas:
     display_name: "Shreyas Minocha"
@@ -120,3 +127,14 @@ octavio2:
     display_name: "Octavio Galland"
     role: intern-alum
     bio: "2022. U. of Buenos Aires, Argentina"
+
+robertstark:
+    display_name: "Robert Stark"
+    role: ugrad-alum
+    bio: "2022. MSc thesis (co-adviced). Moved to Bosch."
+
+tobiaswienand:
+    display_name: "Tobias Wienand"
+    webpage: https://www.linkedin.com/in/tobias-wienand-071576237/
+    role: ugrad-alum
+    bio: 2022. BSc thesis (co-adviced).
