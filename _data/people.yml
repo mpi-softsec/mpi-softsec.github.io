@@ -36,8 +36,15 @@ zac:
     display_name: "Zac Hatfield-Dodds"
     image: /img/people/zac.jpeg
     webpage: https://zhd.dev/
-    role: grad
-    bio: "PhD student (ANU, co-advised, on leave @ Anthropic)"
+    role: coadviced
+    bio: "PhD student (ANU, on leave @ Anthropic, w/ Tony Hosking)"
+
+philipp:
+    display_name: "Philipp Görz"
+    image: /img/people/philipp.jpeg
+    webpage: 
+    role: coadviced
+    bio: "PhD student (CISPA / RUB, w/ Thorsten Holz)"
 
 simran:
     display_name: "Simran Kathpalia"
