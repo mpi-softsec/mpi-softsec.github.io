@@ -44,7 +44,7 @@ abhishek:
     image: /img/people/abhishek.jpeg
     webpage: https://www.cs.columbia.edu/~ass/
     role: intern
-    bio: "Columbia University, US"
+    bio: "Columbia University, USA"
 
 rafaila:
     display_name: "Rafaila Galanopoulou"
@@ -90,13 +90,19 @@ shreyas:
     display_name: "Shreyas Minocha"
     webpage: https://shreyasminocha.me/
     role: intern-alum
-    bio: "2023. Rice University, US"
+    bio: "2023. Rice University, USA"
 
 stephan:
     display_name: "Stephan Lipp"
     webpage: "https://www.cs.cit.tum.de/sse/lipp/"
     role: intern-alum
     bio: "2022. TU Munich, Germany"
+
+nikhil:
+    display_name: "Nikhil Parasaram"
+    webpage: "https://uk.linkedin.com/in/nikhil-parasaram-1956b5134"
+    role: intern-alum
+    bio: "2022. University College London, UK"
 
 dongjia:
     display_name: "Dongjia Zhang"
