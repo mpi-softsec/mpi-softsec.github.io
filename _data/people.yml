@@ -46,19 +46,19 @@ philipp:
     role: coadviced
     bio: "PhD student (CISPA / RUB, w/ Thorsten Holz)"
 
-simran:
-    display_name: "Simran Kathpalia"
-    image: /img/people/simran.jpeg
-    webpage: https://de.linkedin.com/in/simran-kathpalia-31539b1a4
-    role: intern
-    bio: "Amrita University, India"
-
 abhishek:
     display_name: "Abhishek Shah"
     image: /img/people/abhishek.jpeg
     webpage: https://www.cs.columbia.edu/~ass/
     role: intern
     bio: "Columbia University, USA"
+
+simran:
+    display_name: "Simran Kathpalia"
+    image: /img/people/simran.jpeg
+    webpage: https://de.linkedin.com/in/simran-kathpalia-31539b1a4
+    role: intern
+    bio: "Amrita University, India"
 
 rafaila:
     display_name: "Rafaila Galanopoulou"
