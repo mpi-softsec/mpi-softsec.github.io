@@ -31,6 +31,8 @@ roles:
     name: "Interns and Visiting Researchers"
   - key: intern-alum
     name: "Past Interns and Visiting Researchers"
+  - key: ra-alum
+    name: "Past Research Assistents"
   - key: collab
     name: Collaborators
   - key: alum
