@@ -3,6 +3,14 @@ layout: default
 title: Home
 notitle: true
 
+role_groups:
+    - [grad, coadviced, intern]
+    - [faculty, postdoc]
+    - [postdoc-alum, alum]
+
+role_remain:
+    - [intern-alum, ugrad-alum]
+
 # groups of columns of {roles: list, width: num, image: bool}
 role-tables:
 - - roles: [grad, coadviced, intern]
@@ -12,53 +20,53 @@ role-tables:
     width: 4
     image: true
 - - roles: [postdoc-alum]
-    width: 3.2
+    width: 6
     image: true
   - roles: [alum]
-    width: 3.2
+    width: 6
     image: true
-  - roles: [intern-alum, ugrad-alum]
-    width: 7
+  - roles: [intern-alum]
+    width: 6
     image: false
-
+  - roles: [ugrad-alum]
+    width: 6
+    image: false
 ---
 
 <div class="jumbotron">
     <p>
         This is the <b>MPI Software Security group</b> lead by Dr <a href="https://mboehme.github.io">Marcel B&ouml;hme</a> at the Max Planck Institute for Security and Privacy (MPI-SP) in Germany.
-        We are interested in the automatic discovery of security flaws in software systems at the very large scale. 
+        We are interested in the automatic discovery of security flaws in software systems at the very large scale.
         Some of us work on the foundations of automatic vulnerability discovery and program analysis in general.
         For instance, we seek to identify fundamental limitations of existing techniques, we study empirical methods
         (incl. statistical and causal reasoning) for program analysis, and we explore the assurances that software testing provides when no bugs are found.
-        Another part of our group develops practical vulnerability discovery tools that are widely used in software security practice. 
+        Another part of our group develops practical vulnerability discovery tools that are widely used in software security practice.
         For instance, Entropic is the default power schedule in LibFuzzer which powers the largest fuzzing platforms at Google and Microsoft,
         fuzzing hundreds of security-critical projects on 100k machines 24/7. Our tools have discovered 100+ bugs in widely-used software systems,
         more than 70 of which are security-critical vulnerabilities registered as CVEs at the US National Vulnerability Database.
     </p>
 </div>
 
-<section>
+<!--section-->
     <h2>News</h2>
     <ul class="news list-unstyled">
         {% for post in site.posts limit: site.front_page_news %}
             {% include news-item.html item=post %}
         {% endfor %}
-    </ul>
-    <!--table>
-        {% for post in site.posts limit: site.front_page_news %}
-            {% include news-item.html item=post %}
-        {% endfor %}
-    </table-->
-    {% assign numposts = site.posts | size %}
-    {% if numposts >= 1 %}
-        <p>
+        {% assign numposts = site.posts | size %}
+        {% if numposts >= 1 %}
+        <li>
             <span class="fa fa-fw fa-history"></span>
-            <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
-        </p>
-    {% endif %}
-</section>
+            <span class="text"><a href="{{ site.base }}/oldnews">Older news&hellip;</a></span>
+        </li>
+        {% endif %}
+    </ul>
 
-<div class="jumbotron"><h2>Opportunities</h2><p style="font-size: 90%;">We are always looking to recruit
+    <h2>Opportunities</h2>
+
+<!--/section-->
+
+<div class="jumbotron"><p style="font-size: 80%;">We are always looking to recruit
     👩‍🎓 PhD students and
     👩‍💻 interns
     in Software Security. Just reach out via email.<br/>
@@ -90,7 +98,7 @@ role-tables:
 <div id="people">
     <h2>People</h2>
     {% for role-table in page.role-tables %}
-        <section class="people row justify-content-between">
+        <section class="row justify-content-between">
             {% for role-column in role-table %}
                 <div class="col-md-{{ role-column.width }}">
                     {% for role in role-column.roles %}

@@ -1,51 +1,83 @@
 <table class="table">
 <tbody>
-	{%- set prev_year = 1900 %}
+	{%- set prev_year = dict() %}
+	{% set _ = prev_year.update({'val': 1900}) %}
 	{%- for entry in entries %}
 	<tr>
-		<td>
-			<span class="date">
-				{% if entry.fields['year'] != prev_year %}
-				<big><strong>{{ entry.fields['year'] }}</strong></big><br />
-				{% endif %}
-				{%- set prev_year = entry.fields['year'] %}
-				{{ entry.fields['month']|monthname }}
-			</span>
+		<td width="60px">
+			{% if entry.fields['year'] != prev_year['val'] %}
+			<big><strong>{{ entry.fields['year'] }}</strong></big><br />
+			{% endif %}
+			{% set _ = prev_year.update({'val': entry.fields['year']}) %}
+			<span class="series">{{ entry.fields['series'] }}</span>
 		</td>
 		<td class="publication">
-			<span class="pubtitle">
-				{%- set url = entry|main_url %}
-				{%- if url %}
-				<img src="img/pdficon_small.png" width="16"
-					height="16" alt="PDF" />
-				<a href="{{ url|escape }}">{{ entry|title }}</a>.
-				{%- else %}
-				{{ entry|title }}.
+			<table>
+			<tr>
+			  <td class="icon"><a href="papers/{{entry.fields['key']}}.pdf"><img src="img/pdf.gif" width=16/></a></td>
+			  <td class="pubtitle">{{ entry|title }}.</td>
+			</tr>
+			<tr><td class="icon"><a href="papers/{{entry.fields['key']}}.bib"><img src="img/bibtex.png"/></a></td>
+			<td class="authors">
+				{{ entry.persons['author']|author_list
+				   | replace("\\\"{o}", "ö")
+				   | replace("{\\\"o}", "ö")
+				   | replace("Marcel Böhme", "<u>Marcel Böhme</u>")}}.
+			</td></tr>
+			<!--span class="venuetype">{{ entry|venue_type -}}</span-->
+			<tr><td class="icon"></td>
+			<td class="venue">
+				{{ entry|venue | replace("Proceedings of the","")}}.
+				{%- if entry.fields['numpages'] %}
+					{{ entry.fields['numpages'] }}pp.
 				{%- endif %}
-			</span><br />
-			<span class="authors">
-				{{ entry.persons['author']|author_list }}.
-			</span><br />
-			<span class="venuetype">{{ entry|venue_type -}}</span><span class="venue">{{ entry|venue -}}</span>.
-			{%- if entry.fields['note'] %}
-			<span class="note">
-			{{ entry.fields['note']|escape }}.
-			</span>
-			{%- endif %}
-			<br />
-			<span class="links">
-			{%- for type, url in (entry|extra_urls).items() %}
-				[<a href="{{ url|escape }}">{{ type|escape }}</a>]
-			{%- endfor %}
-				{%- if entry.fields['abstract'] %}
-				[<a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" onclick="$('#abstract_{{entry.fields['key']}}').slideToggle('fast');return false;">abstract</a>]
-				{%- endif %}
-			</span>
+			</td></tr>
 			{%- if entry.fields['abstract'] %}
-			<div id="abstract_{{entry.fields['key']}}" class="abstract">
-			{{ entry.fields['abstract'] |escape }}
-			</div>
+				<tr><td class="icon"></td>
+			    <td class="abstract">
+				    <b>Abstract:</b>
+					<i>{{ entry.fields['abstract'] |escape }}</i>
+				</td></tr>
 			{%- endif %}
+
+			<tr><td class="icon"></td>
+			<td class="links">
+			{%- for type, url in (entry|extra_urls).items() %}
+				{%- if type == "artifact" %}
+				  [<a href="{{ url|escape }}">
+				  🧑‍💻 artifact
+				  </a>
+				  {%- if entry.fields['artifact_doi'] %}
+				  <!-- (DOI: {{ entry.fields['artifact_doi'] }}) -->
+				  {%- endif %}
+				  ]
+				{%- else %}
+				  [<a href="{{ url|escape }}">
+				  {%- if type == "website" %}🔗{%- endif %}
+				  {%- if type == "github" %}<span class="fa fa-fw fa-github"></span>{%- endif %}
+				  {{ type|escape }}
+				  </a>]
+				{%- endif %}
+
+			{%- endfor %}
+			</td></tr>
+			{%- if entry.fields['note'] %}
+				<tr><td class="icon"></td>
+			    <td class="note"><b>Note:</b> {{ entry.fields['note'] }}</td></tr>
+			{%- endif %}
+			{%- if entry.fields['note_1'] %}
+				<tr><td class="icon"></td>
+			    <td class="note"><b>Note:</b> {{ entry.fields['note_1'] }}</td></tr>
+			{%- endif %}
+			{%- if entry.fields['note_2'] %}
+				<tr><td class="icon"></td>
+			    <td class="note"><b>Note:</b> {{ entry.fields['note_2'] }}</td></tr>
+			{%- endif %}
+			{%- if entry.fields['note_3'] %}
+				<tr><td class="icon"></td>
+			    <td class="note"><b>Note:</b> {{ entry.fields['note_3'] }}</td></tr>
+			{%- endif %}
+			</table>
 		</td>
 	</tr>
 	{%- endfor %}

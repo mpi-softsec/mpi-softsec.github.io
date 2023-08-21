@@ -1,8 +1,78 @@
-@InProceedings{XXX,
-  author = 	 {Author 1 and Author 2},
-  title = 	 {Awesome Publication},
-  booktitle =    {International Conference on Awesome Research},
-  year = 	 2014,
-  month = 5,
-  url = {https://www.asdfasdf.asdfasdf.asdfasdfads}
+@article{TSE24-learn2fix,
+  author       = {Charaka Geethal Kapugama and B\"{o}hme, Marcel and Pham, Van-Thuan},
+  journal      = {IEEE Transactions on Software Engineering},
+  series       = {TSE'24},
+  title        = {Human-In-The-Loop Automatic Program Repair},
+  abstract     = {Learn2fix automatically "negotiates" with the user the condition under which the bug is observed before it repairs the bug.},
+  year         = {2024},
+  numpages     = {24},
+  doi          = {10.1109/TSE.2023.3305052},
+  note         = {Journal extension of our homonymous <a href="papers/ICST20-learn2fix.pdf">ICST'20</a> paper.},
+  artifact_url = {https://github.com/charakageethal/learn2fix-journal-ext/}
+}
+
+@inproceedings{FSE23-reachability,
+  author       = {Lee, Seongmin and B{\"o}hme, Marcel},
+  title        = {Statistical Reachability Analysis},
+  booktitle    = {Proceedings of the 31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+  series       = {ESEC / FSE'23},
+  year         = {2023},
+  numpages     = {12},
+  doi          = {10.1145/3611643.3616268},
+  abstract     = {Quantiative program analysis using a statistical rather than an analytical approach.},
+  artifact_url = {https://doi.org/10.5281/zenodo.8267404},
+  artifact_doi = {10.5281/zenodo.8267404}
+}
+
+@inproceedings{ASE23-preciseApprox,
+  author       = {Nikhil Parasaram and Earl T. Barr and Sergey Mechtaev and Marcel B{\"o}hme},
+  booktitle    = {Proceedings of the 38th IEEE/ACM International Conference on Automated Software Engineering},
+  numpages     = {12},
+  publisher    = {Association for Computing Machinery},
+  series       = {ASE'23},
+  title        = {Precise Data-Driven Approximation for Program Analysis via Fuzzing},
+  year         = {2023},
+  abstract     = {Marry static analysis to over-/under-approx. the valid state space and fuzzing + stats to estimate the degree of validity.},
+  artifact_url = {https://doi.org/10.5281/zenodo.7902214},
+  artifact_doi = {10.5281/zenodo.7902214}
+}
+
+@inproceedings{ICSE23-effectiveness,
+  author       = {Liyanage, Danushka and B{\"o}hme, Marcel and Tantithamthavorn, Chakkrit and Lipp, Stephan},
+  title        = {Reachable Coverage: Estimating Saturation in Fuzzing},
+  year         = {2023},
+  booktitle    = {Proceedings of the 45th International Conference on Software Engineering},
+  series       = {ICSE'23},
+  numpages     = {13},
+  abstract     = {Estimating the maximum achievable coverage by automatic test input generation.},
+  note         = {Note: Featured in the <a href="https://www.fuzztesting.io/fuzzing-weekly/2023/cw5">Fuzzing Weekly Newsletter (CW5)</a>.},
+  artifact_url = {https://doi.org/10.5281/zenodo.7571359},
+  artifact_doi = {10.5281/zenodo.7571359}
+}
+
+@inproceedings{ICSE23-debug-assumptions,
+  author       = {Soremekun, Ezekiel and Kirschner, Lukas and B\"{o}hme, Marcel and Papadakis, Mike},
+  title        = {Evaluating the Impact of Experimental Assumptions in Automated Fault Localization},
+  booktitle    = {Proceedings of the ACM/IEEE 45th International Conference on Software Engineering},
+  series       = {ICSE'23},
+  numpages     = {13},
+  year         = {2023},
+  abstract     = {Evaluating the assumptions that researchers make during debugging tool evaluations.},
+  artifact_url = {https://figshare.com/articles/conference_contribution/Debugging_Assumptions_Artifact/21786743},
+  artifact_doi = {10.6084/m9.figshare.21786743.v6},
+  website_url  = {https://debugging-assumptions.github.io/}
+}
+
+@inproceedings{ISSTA23-green,
+  author       = {Lipp, Stephan and Elsner, Daniel and Kacianka, Severin and Pretschner, Alexander and B{\"o}hme, Marcel and Banescu, Sebastian},
+  title        = {Green Fuzzing: A Saturation-based Stopping Criterion using Vulnerability Prediction},
+  booktitle    = {Proceedings of the 32nd ACM/SIGSOFT International Symposium on Software Testing and Analysis},
+  series       = {ISSTA'23},
+  doi          = {10.1145/3597926.3598043},
+  year         = {2023},
+  numpages     = {13},
+  abstract     = {We suggest to stop a fuzzing campaign when the coverage of potentially vulnerable code saturates.},
+  artifact_url = {https://doi.org/10.5281/zenodo.7944722},
+  artifact_doi = {10.5281/zenodo.7944722},
+  github_url   = {https://github.com/tum-i4/green-fuzzing-artifacts/tree/1.0.0}
 }

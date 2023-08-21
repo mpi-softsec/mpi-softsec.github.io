@@ -28,22 +28,37 @@ there by default by Bootstrap columns.
 {% endif %}
 
 {% if include.image %}
-    <div class="person person-with-image row align-items-center">
-        <div class="col-auto">
-            {% include person-image.html person=person %}
-        </div>
-        <div class="col pl-0">
-            <h6 class="person-name"> {{ name }} </h6>
-            {% if person.bio %}
-                <div class="bio">{{person.bio}}</div>
-            {% endif %}
-        </div>
-    </div>
-{% else %}
-    <div class="person person-without-image">
-        {{ name }}
-        {% if person.bio %}
-            <span class="bio">{{person.bio}}</span>
+<li>
+    {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
+    {% assign imgurl = false %}
+    {% if person.image %}
+        {% capture init %}{{ person.image | slice: 0,2 }}{% endcapture %}
+        {% if init == "//" %}
+            {% assign imgurl = person.image %}
+        {% else %}
+            {% capture imgurl %}{{site.base}}{{person.image}}{% endcapture %}
         {% endif %}
+    {% endif %}
+
+    {% if imgurl %}
+        <img class="rounded-circle profile"
+             alt="{{ person.display_name }}"
+             title="{{ person.display_name }}"
+             src="{{ site.base }}{{ person.image }}" />
+    {% else %}
+        <svg class="profile"><circle class="noprofile" /></svg>
+    {% endif %}
+    {% if person.webpage %}</a>{% endif %}
+    <div class="person">
+    {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}
+    <h4>{{person.display_name}}</h4>
+    {% if person.webpage %}</a>{% endif %}
+    {% if person.bio %}<p class="bio">{{person.bio}}</p>{% endif %}
     </div>
+</li>
+{% else %}
+<li>
+    {% if person.webpage %}<a href="{{ person.webpage |escape }}">{% endif %}{{person.display_name}}{% if person.webpage %}</a>{% endif %}
+    {% if person.bio %} <span class="bio bio-inline">{{person.bio}}</span>{% endif %}
+</li>
 {% endif %}

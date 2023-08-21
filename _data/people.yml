@@ -18,19 +18,19 @@ danushka:
     image: /img/people/danushka.jpeg
     webpage: "https://au.linkedin.com/in/danushka-liyanage"
     role: grad
-    bio: PhD Candidate (Monash U, Australia)
+    bio: PhD Candidate (Monash)
 
 niklas:
     display_name: "Niklas Risse"
     image: /img/people/niklas.jpeg
     webpage: "https://de.linkedin.com/in/niklas-risse-576764174"
     role: grad
-    bio: PhD Student (MPI-SP / CASA / RUB, Germany)
+    bio: PhD Student (MPI-SP / CASA)
 
 octavio:
     display_name: "Octavio Galland"
     role: grad
-    bio: PhD Student (MPI-SP / CASA / RUB, Germany)
+    bio: PhD Student (MPI-SP / CASA)
 
 zac:
     display_name: "Zac Hatfield-Dodds"
@@ -42,7 +42,7 @@ zac:
 philipp:
     display_name: "Philipp Görz"
     image: /img/people/philipp.jpeg
-    webpage: 
+    webpage:
     role: coadviced
     bio: "PhD student (CISPA / RUB, w/ Thorsten Holz)"
 
@@ -79,7 +79,7 @@ thuan:
     image: /img/people/thuan.jpeg
     webpage: https://thuanpv.github.io/
     role: postdoc-alum
-    bio: "PostDoc 2018-20. Now faculty at University of Melbourne."
+    bio: "PostDoc 2018-20. Now at University of Melbourne."
 
 behrad:
     display_name: "Behrad Garmany"
@@ -91,14 +91,14 @@ charaka:
     role: alum
     image: /img/people/charaka.jpeg
     webpage: https://www.sci.ruh.ac.lk/computer/academic_staff_profile.php?id=901
-    bio: "PhD 2023. Now faculty at University of Ruhuna, Sri Lanka."
+    bio: "PhD 2023. Now at University of Ruhuna, Sri Lanka."
 
 anjana:
      display_name: "Anjana Perera"
      role: alum
      image: /img/people/anjana.jpeg
      webpage: https://anjana-perera.github.io/
-     bio: "PhD 2022 (co-adviced). Now PostDoc at Oracle Labs, Australia."
+     bio: "PhD 2022 (co-adviced). Now at Oracle Labs, Australia."
 
 shreyas:
     display_name: "Shreyas Minocha"
