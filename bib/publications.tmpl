@@ -14,8 +14,21 @@
 		<td class="publication">
 			<table>
 			<tr>
-			  <td class="icon"><a href="papers/{{entry.fields['key']}}.pdf"><img src="img/pdf.gif" width=16/></a></td>
-			  <td class="pubtitle">{{ entry|title }}.</td>
+				<td class="icon">
+				{% set temp = {'has_pdf': false} %}
+				{%- for type, url in (entry|extra_urls).items() %}
+					{%- if type == "pdf" %}
+						{%- if temp.update({'has_pdf' : true}) %} {%- endif %}
+					{%- endif %}
+				{%- endfor %}
+				{%- if temp.has_pdf %}
+				<a href="{{ url|escape }}"><img src="img/pdf.gif"/></a>
+				{%- else %}
+				<img src="img/pdf.off.gif"/>
+				{%- endif %}
+
+				</td>
+				<td class="pubtitle">{{ entry|title }}.</td>
 			</tr>
 			<tr><td class="icon"><a href="papers/{{entry.fields['key']}}.bib"><img src="img/bibtex.png"/></a></td>
 			<td class="authors">
@@ -25,7 +38,13 @@
 				   | replace("Marcel Böhme", "<u>Marcel Böhme</u>")}}.
 			</td></tr>
 			<!--span class="venuetype">{{ entry|venue_type -}}</span-->
-			<tr><td class="icon"></td>
+			<tr><td class="icon">
+			{%- for type, url in (entry|extra_urls).items() %}
+					{%- if type == "artifact" %}
+					<span style="font-size: 110%"><a href="{{ url|escape }}">🧑‍💻</a></span>
+					{%- endif %}
+				{%- endfor %}
+			</td>
 			<td class="venue">
 				{{ entry|venue | replace("Proceedings of the","")}}.
 				{%- if entry.fields['numpages'] %}
@@ -33,7 +52,8 @@
 				{%- endif %}
 			</td></tr>
 			{%- if entry.fields['abstract'] %}
-				<tr><td class="icon"></td>
+				<tr><td class="icon">
+				</td>
 			    <td class="abstract">
 				    <b>Abstract:</b>
 					<i>{{ entry.fields['abstract'] |escape }}</i>
@@ -43,16 +63,17 @@
 			<tr><td class="icon"></td>
 			<td class="links">
 			{%- for type, url in (entry|extra_urls).items() %}
-				{%- if type == "artifact" %}
+				{%- if type == "pdf" %}
 				  [<a href="{{ url|escape }}">
-				  🧑‍💻 artifact
-				  </a>
-				  {%- if entry.fields['artifact_doi'] %}
-				  <!-- (DOI: {{ entry.fields['artifact_doi'] }}) -->
-				  {%- endif %}
-				  ]
+				   <img width=12px src="img/pdf.gif"/> pdf
+				  </a>]
+
+				  [<a href="papers/{{entry.fields['key']}}.bib">
+				   <img width=12px src="img/bibtex.png"/> bib
+				  </a>]
 				{%- else %}
 				  [<a href="{{ url|escape }}">
+				  {%- if type == "artifact" %}🧑‍💻{%- endif %}
 				  {%- if type == "website" %}🔗{%- endif %}
 				  {%- if type == "github" %}<span class="fa fa-fw fa-github"></span>{%- endif %}
 				  {{ type|escape }}
