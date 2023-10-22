@@ -84,6 +84,10 @@
 
 			{%- endfor %}
 			</td></tr>
+			{%- if entry.fields['award'] %}
+				<tr><td class="icon">🏆</td>
+			    <td class="note"><b>Award:</b> {{ entry.fields['note'] }}</td></tr>
+			{%- endif %}
 			{%- if entry.fields['note'] %}
 				<tr><td class="icon"></td>
 			    <td class="note"><b>Note:</b> {{ entry.fields['note'] }}</td></tr>
