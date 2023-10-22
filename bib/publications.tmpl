@@ -19,10 +19,11 @@
 				{%- for type, url in (entry|extra_urls).items() %}
 					{%- if type == "pdf" %}
 						{%- if temp.update({'has_pdf' : true}) %} {%- endif %}
+						{%- if temp.update({'url' : url}) %} {%- endif %}
 					{%- endif %}
 				{%- endfor %}
 				{%- if temp.has_pdf %}
-				<a href="{{ url|escape }}"><img src="img/pdf.gif"/></a>
+				<a href="{{ temp.url|escape }}"><img src="img/pdf.gif"/></a>
 				{%- else %}
 				<img src="img/pdf.off.gif"/>
 				{%- endif %}
@@ -35,6 +36,7 @@
 				{{ entry.persons['author']|author_list
 				   | replace("\\\"{o}", "ö")
 				   | replace("{\\\"o}", "ö")
+                                   | replace("\\`{e}", "è")
 				   | replace("Marcel Böhme", "<u>Marcel Böhme</u>")}}.
 			</td></tr>
 			<!--span class="venuetype">{{ entry|venue_type -}}</span-->
