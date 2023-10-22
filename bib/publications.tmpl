@@ -53,6 +53,10 @@
 					{{ entry.fields['numpages'] }}pp.
 				{%- endif %}
 			</td></tr>
+			{%- if entry.fields['award'] %}
+				<tr><td class="icon"><span style="font-size: 80%">🏆</span></td>
+			    <td class="venue"><b>Award:</b> {{ entry.fields['award'] }}</td></tr>
+			{%- endif %}
 			{%- if entry.fields['abstract'] %}
 				<tr><td class="icon">
 				</td>
@@ -84,10 +88,6 @@
 
 			{%- endfor %}
 			</td></tr>
-			{%- if entry.fields['award'] %}
-				<tr><td class="icon">🏆</td>
-			    <td class="note"><b>Award:</b> {{ entry.fields['award'] }}</td></tr>
-			{%- endif %}
 			{%- if entry.fields['note'] %}
 				<tr><td class="icon"></td>
 			    <td class="note"><b>Note:</b> {{ entry.fields['note'] }}</td></tr>
