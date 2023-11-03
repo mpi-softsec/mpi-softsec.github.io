@@ -23,7 +23,7 @@ danushka:
 niklas:
     display_name: "Niklas Risse"
     image: /img/people/niklas.jpeg
-    webpage: "https://de.linkedin.com/in/niklas-risse-576764174"
+    webpage: "https://www.nrisse.com"
     role: grad
     bio: PhD Student (MPI-SP / CASA)
 
@@ -103,11 +103,11 @@ charaka:
     bio: "PhD 2023. Now at University of Ruhuna, Sri Lanka."
 
 anjana:
-     display_name: "Anjana Perera"
-     role: alum
-     image: /img/people/anjana.jpeg
-     webpage: https://anjana-perera.github.io/
-     bio: "PhD 2022 (co-adviced). Now at Oracle Labs, Australia."
+    display_name: "Anjana Perera"
+    role: alum
+    image: /img/people/anjana.jpeg
+    webpage: https://anjana-perera.github.io/
+    bio: "PhD 2022 (co-adviced). Now at Oracle Labs, Australia."
 
 shreyas:
     display_name: "Shreyas Minocha"
@@ -154,4 +154,3 @@ tobiaswienand:
     webpage: https://www.linkedin.com/in/tobias-wienand-071576237/
     role: ugrad-alum
     bio: 2022. BSc thesis (co-adviced).
-
