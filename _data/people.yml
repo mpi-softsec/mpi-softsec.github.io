@@ -46,19 +46,24 @@ philipp:
     role: coadviced
     bio: "PhD student (CISPA / RUB, w/ Thorsten Holz)"
 
-abhishek:
-    display_name: "Abhishek Shah"
-    image: /img/people/abhishek.jpeg
-    webpage: https://www.cs.columbia.edu/~ass/
+yasamin:
+    display_name: "Yasamin Golzar"
     role: intern
-    bio: "Columbia University, USA"
+    bio: "Sharif University, Iran"
 
-simran:
-    display_name: "Simran Kathpalia"
-    image: /img/people/simran.jpeg
-    webpage: https://de.linkedin.com/in/simran-kathpalia-31539b1a4
+jing:
+    display_name: "Jing Liu"
+    image: /img/people/jing.jpeg
+    website: https://www.linkedin.com/in/jing6/
     role: intern
-    bio: "Amrita University, India"
+    bio: "UCI, USA"
+
+haoxin:
+    display_name: "Haoxin Tu"
+    image: /img/people/haoxin.png
+    webpage: https://haoxintu.github.io/
+    role: intern
+    bio: "SMU, Singapore"
 
 rafaila:
     display_name: "Rafaila Galanopoulou"
@@ -108,6 +113,20 @@ anjana:
     image: /img/people/anjana.jpeg
     webpage: https://anjana-perera.github.io/
     bio: "PhD 2022 (co-adviced). Now at Oracle Labs, Australia."
+
+abhishek:
+    display_name: "Abhishek Shah"
+    image: /img/people/abhishek.jpeg
+    webpage: https://www.cs.columbia.edu/~ass/
+    role: intern-alum
+    bio: "2023. Columbia University, USA"
+
+simran:
+    display_name: "Simran Kathpalia"
+    image: /img/people/simran.jpeg
+    webpage: https://de.linkedin.com/in/simran-kathpalia-31539b1a4
+    role: intern-alum
+    bio: "2023. Amrita University, India"
 
 shreyas:
     display_name: "Shreyas Minocha"
