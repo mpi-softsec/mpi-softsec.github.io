@@ -46,17 +46,29 @@ philipp:
     role: coadviced
     bio: "PhD student (CISPA / RUB, w/ Thorsten Holz)"
 
-yasamin:
-    display_name: "Yasamin Golzar"
-    role: intern
-    bio: "Sharif University, Iran"
+leon:
+    display_name: "Leon Weiß"
+    webpage: https://informatik.rub.de/softsec/people/
+    role: coadviced
+    bio: "PhD student (CASA / RUB, w/ Kevin Borgolte)"
 
-jing:
-    display_name: "Jing Liu"
-    image: /img/people/jing.jpeg
-    website: https://www.linkedin.com/in/jing6/
-    role: intern
-    bio: "UCI, USA"
+tobias:
+    display_name: "Tobias Holl"
+    webpage: https://tholl.xyz/
+    role: coadviced
+    bio: "PhD student (CASA / RUB, w/ Kevin Borgolte)"
+
+#yasamin:
+#    display_name: "Yasamin Golzar"
+#    role: intern
+#    bio: "Sharif University, Iran"
+#
+#jing:
+#    display_name: "Jing Liu"
+#    image: /img/people/jing.jpeg
+#    website: https://www.linkedin.com/in/jing6/
+#    role: intern
+#    bio: "UCI, USA"
 
 haoxin:
     display_name: "Haoxin Tu"
