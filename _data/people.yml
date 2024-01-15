@@ -50,13 +50,13 @@ leon:
     display_name: "Leon Weiß"
     webpage: https://informatik.rub.de/softsec/people/
     role: coadviced
-    bio: "PhD student (CISPA / RUB, w/ Kevin Borgolte)"
+    bio: "PhD student (CASA / RUB, w/ Kevin Borgolte)"
 
 tobias:
     display_name: "Tobias Holl"
     webpage: https://tholl.xyz/
     role: coadviced
-    bio: "PhD student (CISPA / RUB, w/ Kevin Borgolte)"
+    bio: "PhD student (CASA / RUB, w/ Kevin Borgolte)"
 
 #yasamin:
 #    display_name: "Yasamin Golzar"
