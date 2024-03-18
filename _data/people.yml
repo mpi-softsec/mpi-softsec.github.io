@@ -63,12 +63,12 @@ tobias:
 #    role: intern
 #    bio: "Sharif University, Iran"
 #
-#jing:
-#    display_name: "Jing Liu"
-#    image: /img/people/jing.jpeg
-#    website: https://www.linkedin.com/in/jing6/
-#    role: intern
-#    bio: "UCI, USA"
+jing:
+    display_name: "Jing Liu"
+    image: /img/people/jing.jpeg
+    website: https://www.linkedin.com/in/jing6/
+    role: intern
+    bio: "UCI, USA"
 
 haoxin:
     display_name: "Haoxin Tu"
