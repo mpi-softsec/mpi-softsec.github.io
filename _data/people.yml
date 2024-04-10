@@ -79,13 +79,6 @@ haoxin:
     role: intern
     bio: "SMU, Singapore"
 
-rafaila:
-    display_name: "Rafaila Galanopoulou"
-    image: /img/people/rafaila.jpeg
-    webpage: https://gr.linkedin.com/in/rafaila-galanopoulou-216460168
-    role: intern
-    bio: "Athens University, Greece"
-
 zahra:
     display_name: "Zahra Mirzamomen"
     image: /img/people/zahra.jpeg
@@ -135,6 +128,13 @@ anjana:
     webpage: https://anjana-perera.github.io/
     bio: "PhD 2022 (co-adviced). Now at Oracle Labs, Australia."
 
+rafaila:
+    display_name: "Rafaila Galanopoulou"
+    image: /img/people/rafaila.jpeg
+    webpage: https://gr.linkedin.com/in/rafaila-galanopoulou-216460168
+    role: intern-alum
+    bio: "2023. Athens University, Greece"
+    
 octavio2:
     display_name: "Octavio Galland"
     role: intern-alum
