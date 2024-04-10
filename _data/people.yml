@@ -13,12 +13,12 @@ seongmin:
     image: /img/people/seongmin.jpeg
     bio: Research Fellow
 
-danushka:
-    display_name: "Danushka Liyanage"
-    image: /img/people/danushka.jpeg
-    webpage: "https://au.linkedin.com/in/danushka-liyanage"
-    role: grad
-    bio: PhD Candidate (Monash)
+eleonora:
+    display_name: "Eleonora Liusuk"
+    webpage: "https://www.math.unipd.it/~elosiouk/"
+    role: postdoc
+    image: /img/people/eleonora.jpeg
+    bio: Visiting Professor (U of Padova, Italy)
 
 niklas:
     display_name: "Niklas Risse"
@@ -27,10 +27,11 @@ niklas:
     role: grad
     bio: PhD Student (MPI-SP / CASA)
 
-octavio:
-    display_name: "Octavio Galland"
+ardi:
+    display_name: "Ardi Madadi"
+    image: /img/people/ardi.jpeg
     role: grad
-    bio: PhD Student (MPI-SP / CASA)
+    bio: Incoming PhD Student
 
 zac:
     display_name: "Zac Hatfield-Dodds"
@@ -112,6 +113,13 @@ barathkrish:
     role: ra-alum
     bio: "Research Assistent 2020-22. Now at Deloitte."
 
+danushka:
+    display_name: "Danushka Liyanage"
+    image: /img/people/danushka.jpeg
+    webpage: "https://au.linkedin.com/in/danushka-liyanage"
+    role: alum
+    bio: PhD 2023. Now at University of Sydney, Australia.
+    
 charaka:
     display_name: "Charaka Geethal Kapugama"
     role: alum
@@ -125,6 +133,12 @@ anjana:
     image: /img/people/anjana.jpeg
     webpage: https://anjana-perera.github.io/
     bio: "PhD 2022 (co-adviced). Now at Oracle Labs, Australia."
+
+octavio2:
+    display_name: "Octavio Galland"
+    role: intern-alum
+    website: https://www.linkedin.com/in/octavio-galland-66945b244/
+    bio: "2023. U. of Buenos Aires, Argentina"
 
 abhishek:
     display_name: "Abhishek Shah"
@@ -169,11 +183,6 @@ christian:
     webpage: https://blog.trailofbits.com/2022/04/26/improving-the-state-of-go-fuzz/
     role: intern-alum
     bio: "2022. TU Munich, Germany"
-
-octavio2:
-    display_name: "Octavio Galland"
-    role: intern-alum
-    bio: "2022. U. of Buenos Aires, Argentina"
 
 robertstark:
     display_name: "Robert Stark"
