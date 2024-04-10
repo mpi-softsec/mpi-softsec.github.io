@@ -17,7 +17,7 @@ eleonora:
     display_name: "Eleonora Liusuk"
     webpage: "https://www.math.unipd.it/~elosiouk/"
     role: visitor
-    image: /img/people/eleonora.jpeg
+    image: /img/people/eleonora.jpg
     bio: Visiting Professor (U of Padova, Italy)
 
 niklas:
@@ -30,6 +30,7 @@ niklas:
 ardi:
     display_name: "Ardi Madadi"
     image: /img/people/ardi.jpeg
+    webpage: https://www.linkedin.com/in/ardimadadi/
     role: grad
     bio: Incoming PhD Student
 
