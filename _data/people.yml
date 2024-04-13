@@ -100,12 +100,19 @@ behrad:
     role: postdoc-alum
     bio: "PostDoc 2022. Now at Onapsis Inc."
 
+octavio:
+    display_name: "Octavio Galland"
+    image: /img/people/octavio.jpeg
+    role: ra-alum
+    webpage: https://www.linkedin.com/in/octavio-galland-66945b244/
+    bio: "2022/23. U. of Buenos Aires, Argentina"
+
 barathkrish:
     display_name: "Bharath Krish"
     image: /img/people/bharath.jpeg
     webpage: https://www.linkedin.com/in/bharath-krish-8bbb4bb6/
     role: ra-alum
-    bio: "Research Assistent 2020-22. Now at Deloitte."
+    bio: "2020-22. Now at Deloitte."
 
 danushka:
     display_name: "Danushka Liyanage"
@@ -134,12 +141,6 @@ rafaila:
     webpage: https://gr.linkedin.com/in/rafaila-galanopoulou-216460168
     role: intern-alum
     bio: "2023. Athens University, Greece"
-    
-octavio2:
-    display_name: "Octavio Galland"
-    role: intern-alum
-    webpage: https://www.linkedin.com/in/octavio-galland-66945b244/
-    bio: "2023. U. of Buenos Aires, Argentina"
 
 abhishek:
     display_name: "Abhishek Shah"
