@@ -68,9 +68,16 @@ tobias:
 jing:
     display_name: "Jing Liu"
     image: /img/people/jing.jpeg
-    website: https://www.linkedin.com/in/jing6/
+    website: https://jing6.netlify.app/
     role: intern
     bio: "UCI, USA"
+
+eric:
+    display_name: "Eric Tang"
+    image: /img/people/eric.jpeg
+    website: https://erictang25.github.io/
+    role: intern
+    bio: "CMU, USA"
 
 haoxin:
     display_name: "Haoxin Tu"
