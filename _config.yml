@@ -12,7 +12,7 @@ permalink: /blog/:year/:month/:day/:title.html
 # Sections on the "people" page.
 roles:
   - key: faculty
-    name: Faculty
+    name: Faculty &amp; Fellows
   - key: staff
     name: Staff
   - key: visitor
