@@ -22,9 +22,7 @@ roles:
   - key: postdoc-alum
     name: Past Research Fellows
   - key: grad
-    name: Graduate Students (Main advisor)
-  - key: coadviced
-    name: Graduate Students (Co-advisor)
+    name: Graduate Students
   - key: ugrad
     name: Undergraduate Students
   - key: ugrad-alum
