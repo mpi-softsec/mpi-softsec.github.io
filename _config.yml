@@ -24,7 +24,7 @@ roles:
   - key: grad
     name: "Graduate Students"
   - key: coadv
-    name: "Co-advised Grads"
+    name: "Co-advised Grad Students"
   - key: ugrad
     name: "Undergraduate Students"
   - key: ugrad-alum
