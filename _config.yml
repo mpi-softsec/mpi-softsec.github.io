@@ -23,6 +23,8 @@ roles:
     name: Past Research Fellows
   - key: grad
     name: Graduate Students
+  - key: coadv
+    name: Co-advised Grads
   - key: ugrad
     name: Undergraduate Students
   - key: ugrad-alum
