@@ -38,26 +38,26 @@ zac:
     display_name: "Zac Hatfield-Dodds"
     image: /img/people/zac.jpeg
     webpage: https://zhd.dev/
-    role: grad
+    role: coadv
     bio: "PhD student (ANU, on leave @ Anthropic, w/ Tony Hosking)"
 
 philipp:
     display_name: "Philipp Görz"
     image: /img/people/philipp.jpeg
     webpage:
-    role: grad
+    role: coadv
     bio: "PhD student (CISPA / RUB, main advisor: Thorsten Holz)"
 
 leon:
     display_name: "Leon Weiß"
     webpage: https://informatik.rub.de/softsec/people/
-    role: grad
+    role: coadv
     bio: "PhD student (CASA / RUB, main advisor: Kevin Borgolte)"
 
 tobias:
     display_name: "Tobias Holl"
     webpage: https://tholl.xyz/
-    role: grad
+    role: coadv
     bio: "PhD student (CASA / RUB, main advisor: Kevin Borgolte)"
 
 #yasamin:
