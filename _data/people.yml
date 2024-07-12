@@ -44,7 +44,7 @@ zac:
 philipp:
     display_name: "Philipp Görz"
     image: /img/people/philipp.jpeg
-    webpage:
+    webpage: https://www.linkedin.com/in/philipp-g%C3%B6rz-368372195
     role: coadv
     bio: "PhD student (CISPA / RUB, main advisor: Thorsten Holz)"
 
