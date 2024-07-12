@@ -65,6 +65,13 @@ yasamin:
     role: intern
     bio: "Sharif University, Iran"
 
+prabith:
+    display_name: "Prabith Gupta"
+    webpage: https://prabithgupta.com/
+    image: /img/people/prabith.jpg
+    role: intern
+    bio: "Amrita University, India"
+
 jing:
     display_name: "Jing Liu"
     image: /img/people/jing.jpeg
@@ -84,6 +91,7 @@ eric:
     webpage: https://www.linkedin.com/in/eric-tang-a4877a228/
     role: intern
     bio: "CMU, USA"
+
 
 zahra:
     display_name: "Zahra Mirzamomen"
