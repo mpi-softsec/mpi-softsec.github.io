@@ -14,11 +14,11 @@ seongmin:
     bio: Research Fellow
 
 eleonora:
-    display_name: "Eleonora Losiouk"
+    display_name: "Prof. Eleonora Losiouk"
     webpage: "https://www.math.unipd.it/~elosiouk/"
-    role: visitor
+    role: intern-alum
     image: /img/people/eleonora.jpg
-    bio: U of Padova, Italy
+    bio: 2024. U of Padova, Italy
 
 niklas:
     display_name: "Niklas Risse"
@@ -32,7 +32,7 @@ ardi:
     image: /img/people/ardi.jpeg
     webpage: https://www.linkedin.com/in/ardimadadi/
     role: grad
-    bio: Incoming PhD Student
+    bio: PhD Student (MPI-SP)
 
 zac:
     display_name: "Zac Hatfield-Dodds"
@@ -60,11 +60,11 @@ tobias:
     role: coadv
     bio: "PhD student (CASA / RUB, main advisor: Kevin Borgolte)"
 
-#yasamin:
-#    display_name: "Yasamin Golzar"
-#    role: intern
-#    bio: "Sharif University, Iran"
-#
+yasamin:
+    display_name: "Yasamin Golzar"
+    role: intern
+    bio: "Sharif University, Iran"
+
 jing:
     display_name: "Jing Liu"
     image: /img/people/jing.jpeg
