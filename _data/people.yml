@@ -34,6 +34,12 @@ ardi:
     role: grad
     bio: PhD Student (MPI-SP)
 
+gaetano:
+    display_name: "Gaetano Sapia"
+    webpage: https://www.linkedin.com/in/gaetano-sapia-353999190/
+    role: grad
+    bio: Incoming PhD Student
+
 zac:
     display_name: "Zac Hatfield-Dodds"
     image: /img/people/zac.jpeg
