@@ -30,15 +30,16 @@ niklas:
 ardi:
     display_name: "Ardi Madadi"
     image: /img/people/ardi.jpeg
-    webpage: https://www.linkedin.com/in/ardimadadi/
+    webpage: https://madadi.one/
     role: grad
     bio: PhD Student (MPI-SP)
 
 gaetano:
     display_name: "Gaetano Sapia"
+    image: /img/people/gaetano.jpeg
     webpage: https://www.linkedin.com/in/gaetano-sapia-353999190/
     role: grad
-    bio: Incoming PhD Student
+    bio: PhD Student (MPI-SP)
 
 zac:
     display_name: "Zac Hatfield-Dodds"
@@ -71,33 +72,12 @@ yasamin:
     role: intern
     bio: "Sharif University, Iran"
 
-prabith:
-    display_name: "Prabith Gupta"
-    webpage: https://prabithgupta.com/
-    image: /img/people/prabith2.jpg
-    role: intern
-    bio: "Amrita University, India"
-
 jing:
     display_name: "Jing Liu"
     image: /img/people/jing.jpeg
     webpage: https://jing6.netlify.app/
     role: intern
     bio: "UCI, USA"
-
-haoxin:
-    display_name: "Haoxin Tu"
-    image: /img/people/haoxin.png
-    webpage: https://haoxintu.github.io/
-    role: intern
-    bio: "SMU, Singapore"
-
-eric:
-    display_name: "Eric Tang"
-    webpage: https://www.linkedin.com/in/eric-tang-a4877a228/
-    role: intern
-    bio: "CMU, USA"
-
 
 zahra:
     display_name: "Zahra Mirzamomen"
@@ -154,6 +134,26 @@ anjana:
     image: /img/people/anjana.jpeg
     webpage: https://anjana-perera.github.io/
     bio: "PhD 2022 (co-adviced). Now at Oracle Labs, Australia."
+
+haoxin:
+    display_name: "Haoxin Tu"
+    image: /img/people/haoxin.png
+    webpage: https://haoxintu.github.io/
+    role: intern-alum
+    bio: "2024. SMU, Singapore"
+
+eric:
+    display_name: "Eric Tang"
+    webpage: https://www.linkedin.com/in/eric-tang-a4877a228/
+    role: intern-alum
+    bio: "2024. CMU, USA"
+
+prabith:
+    display_name: "Prabith Gupta"
+    webpage: https://prabithgupta.com/
+    image: /img/people/prabith2.jpg
+    role: intern-alum
+    bio: "2024. Amrita University, India"
 
 rafaila:
     display_name: "Rafaila Galanopoulou"
