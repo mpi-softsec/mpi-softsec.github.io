@@ -1,1 +1,1 @@
-Marcel gave a <b>keynote</b> at [RAID'24](https://raid2024.github.io/program.html)) and has been invited to serve as <b>program chair</b> of [ASE'25](https://conf.researchr.org/committee/ase-2025/ase-2025-organizing-committee) and [ISSTA'26](https://www.issta.org/#upcoming).
+Marcel gave a <b>keynote</b> at [RAID'24](https://raid2024.github.io/program.html) and has been invited to serve as <b>program chair</b> of [ASE'25](https://conf.researchr.org/committee/ase-2025/ase-2025-organizing-committee) and [ISSTA'26](https://www.issta.org/#upcoming).
