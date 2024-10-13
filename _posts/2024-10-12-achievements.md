@@ -1,0 +1,1 @@
+Marcel gave a <b>keynote</b> ([RAID'24](https://raid2024.github.io/program.html)) and was invited as <b>program chair</b> ([ASE'25](https://conf.researchr.org/committee/ase-2025/ase-2025-organizing-committee), [ISSTA'26](https://www.issta.org/#upcoming)).
