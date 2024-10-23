@@ -60,6 +60,6 @@ navigation:
   - title: Publications
     link: /publications.html
   - title: Awards
-    link: /#awards.html
+    link: /awards.html
   - title: Code
     link: /code.html
