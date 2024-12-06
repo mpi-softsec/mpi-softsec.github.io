@@ -13,6 +13,12 @@ seongmin:
     image: /img/people/seongmin.jpeg
     bio: Research Fellow
 
+abhik:
+    display_name: "Prof. Abhik Roychoudhury"
+    webpage: "https://abhikrc.com/"
+    role: intern-alum
+    bio: 2024. NUS, Singapore
+
 eleonora:
     display_name: "Prof. Eleonora Losiouk"
     webpage: "https://www.math.unipd.it/~elosiouk/"
