@@ -47,12 +47,12 @@ gaetano:
     role: grad
     bio: PhD Student (MPI-SP)
 
-zac:
-    display_name: "Zac Hatfield-Dodds"
-    image: /img/people/zac.jpeg
-    webpage: https://zhd.dev/
-    role: coadv
-    bio: "PhD student (ANU, on leave @ Anthropic, w/ Tony Hosking)"
+#zac:
+#    display_name: "Zac Hatfield-Dodds"
+#    image: /img/people/zac.jpeg
+#    webpage: https://zhd.dev/
+#    role: coadv
+#    bio: "PhD student (ANU, on leave @ Anthropic, w/ Tony Hosking)"
 
 philipp:
     display_name: "Philipp Görz"
