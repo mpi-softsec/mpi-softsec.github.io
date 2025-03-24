@@ -85,13 +85,26 @@ yasamin:
     image: /img/people/yasamin.jpeg
     role: intern
     bio: "Sharif University, Iran"
+
+jiayi:
+    display_name: "Jiayi Jiang"
+    webpage: https://jyjsunny.github.io/
+    image: /img/people/jiayi.jpg
+    role: intern
+    bio: "East China Normal University, China"
     
+
 ruixiang:
     display_name: "Ruixiang Qiang"
     webpage: https://qrxqrx.github.io/
     image: /img/people/ruixiang.jpg
     role: intern
     bio: "Nanjing University, China"
+
+thomas:
+    display_name: "Thomas Valentin"
+    role: intern
+    bio: "ENS Paris-Saclay"
 
 zahra:
     display_name: "Zahra Mirzamomen"
