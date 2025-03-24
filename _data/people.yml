@@ -85,6 +85,13 @@ yasamin:
     image: /img/people/yasamin.jpeg
     role: intern
     bio: "Sharif University, Iran"
+    
+ruixiang:
+    display_name: "Ruixiang Qiang"
+    webpage: https://qrxqrx.github.io/
+    image: /img/people/ruixiang.jpg
+    role: intern
+    bio: "Nanjing University, China"
 
 zahra:
     display_name: "Zahra Mirzamomen"
