@@ -46,7 +46,13 @@ gaetano:
     webpage: https://www.linkedin.com/in/gaetano-sapia-353999190/
     role: grad
     bio: PhD Student (MPI-SP)
-
+    
+jing:
+    display_name: "Jing Liu"
+    image: /img/people/jing.jpeg
+    webpage: https://jing6.netlify.app/
+    role: grad
+    bio: PhD Student (MPI-SP)
 #zac:
 #    display_name: "Zac Hatfield-Dodds"
 #    image: /img/people/zac.jpeg
@@ -79,13 +85,6 @@ yasamin:
     image: /img/people/yasamin.jpeg
     role: intern
     bio: "Sharif University, Iran"
-
-jing:
-    display_name: "Jing Liu"
-    image: /img/people/jing.jpeg
-    webpage: https://jing6.netlify.app/
-    role: intern
-    bio: "UCI, USA"
 
 zahra:
     display_name: "Zahra Mirzamomen"
