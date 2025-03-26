@@ -47,12 +47,12 @@ gaetano:
     role: grad
     bio: PhD Student (MPI-SP)
     
-jing:
-    display_name: "Jing Liu"
-    image: /img/people/jing.jpeg
-    webpage: https://jing6.netlify.app/
-    role: grad
-    bio: PhD Student (MPI-SP)
+#jing:
+#    display_name: "Jing Liu"
+#    image: /img/people/jing.jpeg
+#    webpage: https://jing6.netlify.app/
+#    role: grad
+#    bio: PhD Student (MPI-SP)
 #zac:
 #    display_name: "Zac Hatfield-Dodds"
 #    image: /img/people/zac.jpeg
