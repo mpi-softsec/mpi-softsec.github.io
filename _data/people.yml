@@ -86,12 +86,12 @@ yasamin:
     role: intern
     bio: "Sharif University, Iran"
 
-jiayi:
-    display_name: "Jiayi Jiang"
-    webpage: https://jyjsunny.github.io/
-    image: /img/people/jiayi.jpg
-    role: intern
-    bio: "East China Normal University, China"
+#jiayi:
+#    display_name: "Jiayi Jiang"
+#    webpage: https://jyjsunny.github.io/
+#    image: /img/people/jiayi.jpg
+#    role: intern
+#    bio: "East China Normal University, China"
     
 
 ruixiang:
