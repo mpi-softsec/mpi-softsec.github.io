@@ -13,19 +13,6 @@ seongmin:
     image: /img/people/seongmin.jpeg
     bio: Research Fellow
 
-abhik:
-    display_name: "Prof. Abhik Roychoudhury"
-    webpage: "https://abhikrc.com/"
-    role: intern-alum
-    bio: 2024. NUS, Singapore
-
-eleonora:
-    display_name: "Prof. Eleonora Losiouk"
-    webpage: "https://www.math.unipd.it/~elosiouk/"
-    role: intern-alum
-    image: /img/people/eleonora.jpg
-    bio: 2024. U of Padova, Italy
-
 niklas:
     display_name: "Niklas Risse"
     image: /img/people/niklas.jpeg
@@ -60,6 +47,40 @@ jing:
 #    role: coadv
 #    bio: "PhD student (ANU, on leave @ Anthropic, w/ Tony Hosking)"
 
+abhik:
+    display_name: "Prof. Abhik Roychoudhury"
+    webpage: "https://abhikrc.com/"
+    role: intern-alum
+    bio: 2024. NUS, Singapore
+
+eleonora:
+    display_name: "Prof. Eleonora Losiouk"
+    webpage: "https://www.math.unipd.it/~elosiouk/"
+    role: intern-alum
+    image: /img/people/eleonora.jpg
+    bio: 2024. U of Padova, Italy
+
+jooyong:
+    display_name: "Prof. Jooyong Yi"
+    webpage: "https://www.jooyongyi.com/"
+    role: intern
+    image: /img/people/jooyong.jpg
+    bio: UNIST, South Korea
+
+youngjae:
+    display_name: "YoungJae Kim"
+    webpage: "https://freddyyj.github.io/"
+    role: intern
+    image: /img/people/youngjae.jpg
+    bio: UNIST, South Korea
+
+yasamin:
+    display_name: "Yasamin Golzar"
+    webpage: https://www.linkedin.com/in/yasamin-golzar-2bb7a11aa/
+    image: /img/people/yasamin.jpeg
+    role: coadv
+    bio: "PhD student (main advisor: Yixin Zou)"
+
 philipp:
     display_name: "Philipp Görz"
     image: /img/people/philipp.jpeg
@@ -79,12 +100,6 @@ tobias:
     role: coadv
     bio: "PhD student (CASA / RUB, main advisor: Kevin Borgolte)"
 
-yasamin:
-    display_name: "Yasamin Golzar"
-    webpage: https://www.linkedin.com/in/yasamin-golzar-2bb7a11aa/
-    image: /img/people/yasamin.jpeg
-    role: intern
-    bio: "Sharif University, Iran"
 
 #jiayi:
 #    display_name: "Jiayi Jiang"
@@ -161,6 +176,13 @@ anjana:
     image: /img/people/anjana.jpeg
     webpage: https://anjana-perera.github.io/
     bio: "PhD 2022 (co-adviced). Now at Oracle Labs, Australia."
+
+yasamin1:
+    display_name: "Yasamin Golzar"
+    webpage: https://www.linkedin.com/in/yasamin-golzar-2bb7a11aa/
+    image: /img/people/yasamin.jpeg
+    role: intern-alum
+    bio: "2024. Sharif University, Iran."
 
 haoxin:
     display_name: "Haoxin Tu"
