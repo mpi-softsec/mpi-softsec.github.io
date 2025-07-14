@@ -6,13 +6,6 @@ marcel:
     image: /img/people/marcel.jpeg
     bio: Faculty member
 
-seongmin:
-    display_name: "Seongmin Lee"
-    webpage: "https://nimgnoeseel.github.io/"
-    role: faculty
-    image: /img/people/seongmin.jpeg
-    bio: Research Fellow
-
 niklas:
     display_name: "Niklas Risse"
     image: /img/people/niklas.jpeg
@@ -37,6 +30,7 @@ gaetano:
 junming:
     display_name: "Junming Liu"
     image: /img/people/junming.jpeg
+    webpage: https://www.linkedin.com/in/junming-liu-66ba78329/
     role: grad
     bio: PhD Student (MPI-SP)
     
@@ -126,6 +120,13 @@ thomas:
     display_name: "Thomas Valentin"
     role: intern
     bio: "ENS Paris-Saclay"
+
+seongmin:
+    display_name: "Seongmin Lee"
+    webpage: "https://nimgnoeseel.github.io/"
+    role: postdoc-alum
+    image: /img/people/seongmin.jpeg
+    bio: "PostDoc 2022-25. Now at UCLA."
 
 zahra:
     display_name: "Zahra Mirzamomen"
