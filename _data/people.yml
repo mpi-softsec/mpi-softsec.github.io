@@ -20,6 +20,12 @@ niklas:
     role: grad
     bio: PhD Student (MPI-SP / CASA)
 
+junming:
+    display_name: "Junming Liu"
+    image: /img/people/junming.jpeg
+    role: grad
+    bio: PhD Student (MPI-SP)
+
 ardi:
     display_name: "Ardi Madadi"
     image: /img/people/ardi.jpeg
