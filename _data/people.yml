@@ -9,7 +9,7 @@ marcel:
 niklas:
     display_name: "Niklas Risse"
     image: /img/people/niklas.jpeg
-    webpage: "https://www.nrisse.com"
+    webpage: "https://niklasrisse.github.io"
     role: grad
     bio: PhD Student (MPI-SP / CASA)
 
@@ -33,7 +33,7 @@ junming:
     webpage: https://www.linkedin.com/in/junming-liu-66ba78329/
     role: grad
     bio: PhD Student (MPI-SP)
-    
+
 jing:
     display_name: "Jing Liu"
     image: /img/people/jing.jpeg
@@ -100,14 +100,12 @@ tobias:
     role: coadv
     bio: "PhD student (CASA / RUB, main advisor: Kevin Borgolte)"
 
-
 #jiayi:
 #    display_name: "Jiayi Jiang"
 #    webpage: https://jyjsunny.github.io/
 #    image: /img/people/jiayi.jpg
 #    role: intern
 #    bio: "East China Normal University, China"
-    
 
 ruixiang:
     display_name: "Ruixiang Qiang"
@@ -169,7 +167,7 @@ danushka:
     webpage: "https://au.linkedin.com/in/danushka-liyanage"
     role: alum
     bio: PhD 2023. Now at University of Sydney, Australia.
-    
+
 charaka:
     display_name: "Charaka Geethal Kapugama"
     role: alum
