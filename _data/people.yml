@@ -46,6 +46,12 @@ jing:
 #    webpage: https://zhd.dev/
 #    role: coadv
 #    bio: "PhD student (ANU, on leave @ Anthropic, w/ Tony Hosking)"
+jooyong:
+    display_name: "Prof. Jooyong Yi"
+    webpage: "https://www.jooyongyi.com/"
+    role: intern-alumn
+    image: /img/people/jooyong.jpg
+    bio: 2025. UNIST, South Korea
 
 abhik:
     display_name: "Prof. Abhik Roychoudhury"
@@ -59,13 +65,6 @@ eleonora:
     role: intern-alum
     image: /img/people/eleonora.jpg
     bio: 2024. U of Padova, Italy
-
-jooyong:
-    display_name: "Prof. Jooyong Yi"
-    webpage: "https://www.jooyongyi.com/"
-    role: intern-alumn
-    image: /img/people/jooyong.jpg
-    bio: 2025. UNIST, South Korea
 
 youngjae:
     display_name: "YoungJae Kim"
@@ -85,7 +84,7 @@ philipp:
     display_name: "Philipp Görz"
     image: /img/people/philipp.jpeg
     webpage: https://www.linkedin.com/in/philipp-g%C3%B6rz-368372195
-    role: alumn
+    role: alum
     bio: "PhD 2025 (co-adviced)."
 
 leon:
