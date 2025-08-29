@@ -63,14 +63,14 @@ eleonora:
 jooyong:
     display_name: "Prof. Jooyong Yi"
     webpage: "https://www.jooyongyi.com/"
-    role: visitor
+    role: intern-alumn
     image: /img/people/jooyong.jpg
-    bio: UNIST, South Korea
+    bio: 2025. UNIST, South Korea
 
 youngjae:
     display_name: "YoungJae Kim"
     webpage: "https://freddyyj.github.io/"
-    role: intern
+    role: intern-alumn
     image: /img/people/youngjae.jpg
     bio: UNIST, South Korea
 
@@ -85,8 +85,8 @@ philipp:
     display_name: "Philipp Görz"
     image: /img/people/philipp.jpeg
     webpage: https://www.linkedin.com/in/philipp-g%C3%B6rz-368372195
-    role: coadv
-    bio: "PhD student (CISPA / RUB, main advisor: Thorsten Holz)"
+    role: alumn
+    bio: "PhD 2025 (co-adviced)."
 
 leon:
     display_name: "Leon Weiß"
@@ -111,12 +111,12 @@ ruixiang:
     display_name: "Ruixiang Qiang"
     webpage: https://qrxqrx.github.io/
     image: /img/people/ruixiang.jpg
-    role: intern
+    role: intern-alumn
     bio: "Nanjing University, China"
 
 thomas:
     display_name: "Thomas Valentin"
-    role: intern
+    role: intern-alumn
     bio: "ENS Paris-Saclay"
 
 seongmin:
