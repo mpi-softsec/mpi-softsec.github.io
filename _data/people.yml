@@ -181,19 +181,31 @@ anjana:
     webpage: https://anjana-perera.github.io/
     bio: "PhD 2022 (co-adviced). Now at Oracle Labs, Australia."
 
+haoxin:
+    display_name: "Dr. Dr. Haoxin Tu"
+    image: /img/people/haoxin.png
+    webpage: https://haoxintu.github.io/
+    role: intern-alum
+    bio: "2024. SMU, Singapore"
+
+stephan:
+    display_name: "Dr. Stephan Lipp"
+    webpage: "https://www.cs.cit.tum.de/sse/lipp/"
+    role: intern-alum
+    bio: "2022. TU Munich, Germany"
+
+nikhil:
+    display_name: "Dr. Nikhil Parasaram"
+    webpage: "https://uk.linkedin.com/in/nikhil-parasaram-1956b5134"
+    role: intern-alum
+    bio: "2022. University College London, UK"
+
 yasamin1:
     display_name: "Yasamin Golzar"
     webpage: https://www.linkedin.com/in/yasamin-golzar-2bb7a11aa/
     image: /img/people/yasamin.jpeg
     role: intern-alum
     bio: "2024. Sharif University, Iran."
-
-haoxin:
-    display_name: "Haoxin Tu"
-    image: /img/people/haoxin.png
-    webpage: https://haoxintu.github.io/
-    role: intern-alum
-    bio: "2024. SMU, Singapore"
 
 eric:
     display_name: "Eric Tang"
@@ -234,18 +246,6 @@ shreyas:
     webpage: https://shreyasminocha.me/
     role: intern-alum
     bio: "2023. Rice University, USA"
-
-stephan:
-    display_name: "Stephan Lipp"
-    webpage: "https://www.cs.cit.tum.de/sse/lipp/"
-    role: intern-alum
-    bio: "2022. TU Munich, Germany"
-
-nikhil:
-    display_name: "Nikhil Parasaram"
-    webpage: "https://uk.linkedin.com/in/nikhil-parasaram-1956b5134"
-    role: intern-alum
-    bio: "2022. University College London, UK"
 
 dongjia:
     display_name: "Dongjia Zhang"
