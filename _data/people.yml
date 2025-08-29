@@ -91,13 +91,13 @@ leon:
     display_name: "Leon Weiß"
     webpage: https://informatik.rub.de/softsec/people/
     role: grad
-    bio: "PhD student (CASA / RUB, main advisor: Kevin Borgolte)"
+    bio: "PhD student (CASA / RUB)<br/>Main advisor: Kevin Borgolte"
 
 tobias:
     display_name: "Tobias Holl"
     webpage: https://tholl.xyz/
     role: grad
-    bio: "PhD student (CASA / RUB, main advisor: Kevin Borgolte)"
+    bio: "PhD student (CASA / RUB)<br/>Main advisor: Kevin Borgolte"
 
 #jiayi:
 #    display_name: "Jiayi Jiang"
