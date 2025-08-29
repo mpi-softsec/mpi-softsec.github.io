@@ -77,7 +77,7 @@ yasamin:
     display_name: "Yasamin Golzar"
     webpage: https://www.linkedin.com/in/yasamin-golzar-2bb7a11aa/
     image: /img/people/yasamin.jpeg
-    role: coadv
+    role: grad
     bio: "PhD student (main advisor: Yixin Zou)"
 
 philipp:
@@ -90,13 +90,13 @@ philipp:
 leon:
     display_name: "Leon Weiß"
     webpage: https://informatik.rub.de/softsec/people/
-    role: coadv
+    role: grad
     bio: "PhD student (CASA / RUB, main advisor: Kevin Borgolte)"
 
 tobias:
     display_name: "Tobias Holl"
     webpage: https://tholl.xyz/
-    role: coadv
+    role: grad
     bio: "PhD student (CASA / RUB, main advisor: Kevin Borgolte)"
 
 #jiayi:
