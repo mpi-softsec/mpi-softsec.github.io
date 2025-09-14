@@ -360,7 +360,8 @@
   abstract     = {We find a strong correlation but no strong agreement on fuzzer superiority in terms of coverage versus bugs.},
   artifact_doi = {10.5281/zenodo.6045830},
   artifact_url = {https://doi.org/10.5281/zenodo.6045830},
-  github_url   = {https://github.com/icse22data/}
+  github_url   = {https://github.com/icse22data/},
+  slides_url   = {https://www.slideshare.net/mboehme/on-the-reliability-of-coveragebased-fuzzer-benchmarking}
 }
 
 @inproceedings{SEC22-sgfuzz,
@@ -406,17 +407,80 @@
 }
 
 @inproceedings{ICSE22-NIER-statistical,
-  author    = {B\"{o}hme, Marcel},
-  title     = {Statistical Reasoning About Programs},
-  booktitle = {Proceedings of the 44th International Conference on Software Engineering},
-  series    = {ICSE'22 (NIER)},
-  year      = {2022},
-  location  = {Pittsburgh, USA},
-  numpages  = {5},
-  doi       = {10.1145/3510455.3512796},
-  pdf_url   = {papers/ICSE22-NIER-statistical.pdf},
-  abstract  = {Open challenges and new research directions for automated program analysis at scale.}
+  author     = {B\"{o}hme, Marcel},
+  title      = {Statistical Reasoning About Programs},
+  booktitle  = {Proceedings of the 44th International Conference on Software Engineering},
+  series     = {ICSE'22 (NIER)},
+  year       = {2022},
+  location   = {Pittsburgh, USA},
+  numpages   = {5},
+  doi        = {10.1145/3510455.3512796},
+  pdf_url    = {papers/ICSE22-NIER-statistical.pdf},
+  abstract   = {Open challenges and new research directions for automated program analysis at scale.},
+  slides_url = {https://www.slideshare.net/mboehme/statistical-reasoning-about-programs}
 }
+
+@article{IEEESW21-challenges,
+  author     = {B{\"o}hme, Marcel and Cadar, Cristian and Roychoudhury, Abhik},
+  journal    = {IEEE Software},
+  title      = {Fuzzing: Challenges and Opportunities},
+  year       = {2021},
+  pages      = {1--9},
+  numpages   = {9},
+  doi        = {10.1109/MS.2020.3016773},
+  pdf_url    = {papers/IEEESW21-challenges.pdf},
+  abstract   = {A resource for practitioners and researchers to learn about the main open challenges in fuzzing and symbolic execution.},
+  note       = {This is the outcome of a 3-day meeting of thought leaders and rising stars, both in industry and academia. We are happy to publish these results in the premier magazine (and journal) for software practitioners.},
+  slides_url = {https://www.slideshare.net/mboehme/fuzzing-challenges-and-reflections}
+}
+
+@inproceedings{CCS21-aflchurn,
+  author    = {Zhu, Xiaogang and B{\"o}hme, Marcel},
+  title     = {Regression Greybox Fuzzing},
+  booktitle = {Proceedings of the 28th ACM Conference on Computer and Communications Security},
+  series    = {CCS},
+  year      = {2021},
+  pdf_url   = {papers/CCS21-aflchurn.pdf},
+  doi       = {10.1145/3460120.3484596},
+  numpages  = {12},
+  abstract  = {Once a program is well-fuzzed, most bugs found are regressions. Fuzz all commits at once, but focus on recent ones.},
+  github_url = {https://github.com/aflchurn/aflchurn},
+  artifact_url = {https://www.kaggle.com/marcelbhme/aflchurn-ccs21/code},
+}
+
+@article{EMSE21-slicing,
+  author  = {Soremekun, Ezekiel and Kirschner, Lukas and B{\"o}hme, Marcel and Zeller, Andreas},
+  doi     = {10.1007/s10664-020-09931-7},
+  journal = {Empirical Software Engineering},
+  number  = {3},
+  pages   = {51},
+  title   = {Locating faults with program slicing: an empirical analysis},
+  volume  = {26},
+  year    = {2021},
+  abstract = {Empirical comparison of statistical fault localization and dynamic program slicing along more realistic assumptions.},
+  note = {Congrats to Ezekiel, Lukas, and Andreas! Ezekiel started this work with when I was still a PostDoc in Andreas' team.},
+  pdf_url = {papers/EMSE21-slicing.pdf},
+  artifact_url = {https://doi.org/10.6084/m9.figshare.13369400.v1},
+  artifact_doi = {10.6084/m9.figshare.13369400.v1}
+}
+
+@inproceedings{FSE21-residualrisk,
+  author    = {B{\"o}hme, Marcel and Liyanage, Danushka and W{\"u}stholz, Valentin},
+  title     = {Estimating Residual Risk in Greybox Fuzzing},
+  booktitle = {Proceedings of the 15th Joint meeting of the European Software Engineering Conference and the ACM SIGSOFT Symposium on the Foundations of Software Engineering},
+  series    = {ESEC/FSE},
+  year      = {2021},
+  pages     = {494-504},
+  numpages  = {12},
+  doi       = {10.1145/3468264.3468570},
+  pdf_url   = {papers/FSE21-residualrisk.pdf},
+  abstract  = {After 24hrs no crashes, you abort the campaign. What is the change to see a crash if you generated one more input?},
+  note      = {<b>Shoutout</b> Shout out: J. Campbell (Microsoft) <a href="https://twitter.com/metr0/status/1396107664669634563">would use this</a> in large-scale fuzzing (<a href="https://www.microsoft.com/en-us/research/project/project-onefuzz/">OneFuzz</a>) to maximize bug finding within the compute budget.},
+  artifact_url = {https://doi.org/10.5281/zenodo.4970239},
+  artifact_doi = {10.5281/zenodo.4970239},
+  github_url = {https://github.com/Adaptive-Bias/fse21_paper270},
+}
+
 
 
 
