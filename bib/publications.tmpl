@@ -10,6 +10,9 @@
 			{% endif %}
 			{% set _ = prev_year.update({'val': entry.fields['year']}) %}
 			<span class="series">{{ entry.fields['series'] | replace("\\&", "&") }}</span>
+			{%- if entry.fields['award'] %}
+				<br/><center><big>🏆</big></center>
+			{%- endif %}
 		</td>
 		<td class="publication">
 			<table>
