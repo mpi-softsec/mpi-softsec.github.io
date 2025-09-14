@@ -39,6 +39,7 @@
 				{{ entry.persons['author']|author_list
 				   | replace("\\\"{o}", "ö")
 				   | replace("{\\\"o}", "ö")
+				   | replace("{\\\"u}", "ü")
                    | replace("\\`{e}", "è")
 				   | replace("{\\\'a}", "á")
 				   | replace("{\\\'o}", "ó")

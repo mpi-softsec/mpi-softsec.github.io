@@ -1,0 +1,70 @@
+<table class="table">
+<tbody>
+	{%- set prev_year = dict() %}
+	{% set _ = prev_year.update({'val': 1900}) %}
+	{%- for entry in entries %}
+	{% set temp = {'has_artifact': false} %}
+	{%- for type, url in (entry|extra_urls).items() %}
+		{%- if type == "artifact" or type == "github" %}
+		    {%- if temp.update({'has_artifact' : true}) %} {%- endif %}
+		{%- endif %}
+	{%- endfor %}
+	{%- if temp.has_artifact %}
+	<tr>
+		<td width="60px">
+			{% if entry.fields['year'] != prev_year['val'] %}
+			<big><strong>{{ entry.fields['year'] }}</strong></big><br />
+			{% endif %}
+			{% set _ = prev_year.update({'val': entry.fields['year']}) %}
+			<span class="series">{{ entry.fields['series'] | replace("\\&", "&") }}</span>
+			{%- if entry.fields['award'] %}
+				<br/><center><div style="font-size: 200%">🏆</div></center>
+			{%- endif %}
+		</td>
+		<td class="publication">
+			<table>
+			<tr><td class="icon">
+				{%- for type, url in (entry|extra_urls).items() %}
+						{%- if type == "artifact" %}
+						<span style="font-size: 110%"><a href="{{ url|escape }}">🧑‍💻</a></span>
+						{%- endif %}
+				{%- endfor %}
+				</td>
+				<td class="pubtitle">{{ entry|title }}.
+				{%- for type, url in (entry|extra_urls).items() %}
+					{%- if type.startswith('artifact-badge') %}
+						{%- if type.endswith('available') %}<a href="https://dl.acm.org/artifacts/software"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_available_dl.jpg" width="16"></a>{%- endif %}
+						{%- if type.endswith('functional') %}<a href="https://dl.acm.org/artifacts/software"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_functional_dl.jpg" width="16"></a>{%- endif %}
+						{%- if type.endswith('reusable') %}<a href="https://dl.acm.org/artifacts/software"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_reusable_dl.jpg" width="16"></a>{%- endif %}
+					{%- endif %}
+				{%- endfor %}
+				</td>
+			</tr>
+			<td class="icon"></td>
+			<td class="venue">
+				{{ entry|venue | replace("Proceedings of the","")}}.
+				{%- if entry.fields['numpages'] %}
+					{{ entry.fields['numpages'] }}pp.
+				{%- endif %}
+			</td></tr>
+			{%- for type, url in (entry|extra_urls).items() %}
+			    {%- if not type.startswith('artifact-badge') and not type == "pdf" and not type == "slides" %}
+					<tr><td class="icon"></td>
+					<td>
+					[<a href="{{ url|escape }}">
+						{%- if type == "artifact" %}🧑‍💻 {%- endif %}
+						{%- if type == "website" %}🔗 {%- endif %}
+						{%- if type == "github" %}<span class="fa fa-fw fa-github"></span> {%- endif %}
+						{%- if type == "slides" %}🧑‍🏫 {%- endif %}
+						{{ url|escape }}
+						</a>]
+				{%- endif %}
+			{%- endfor %}
+			</table>
+		</td>
+	</tr>
+	{%- endif %}
+	{%- endfor %}
+</tbody>
+</table>
+
