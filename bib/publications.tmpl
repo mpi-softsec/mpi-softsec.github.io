@@ -36,8 +36,10 @@
 				{{ entry.persons['author']|author_list
 				   | replace("\\\"{o}", "ö")
 				   | replace("{\\\"o}", "ö")
-                                   | replace("\\`{e}", "è")
-                                }}.
+                   | replace("\\`{e}", "è")
+				   | replace("{\\\'a}", "á")
+				   | replace("{\\\'o}", "ó")
+                }}.
 			</td></tr>
 			<!--span class="venuetype">{{ entry|venue_type -}}</span-->
 			<tr><td class="icon">
@@ -47,42 +49,19 @@
 					{%- endif %}
 				{%- endfor %}
 			</td>
+			{%- if entry.fields['abstract'] %}
+				<td class="abstract">
+				    <b>Abstract:</b>
+					<i>{{ entry.fields['abstract'] |escape }}</i>
+				</td></tr>
+				<tr><td class="icon">
+				</td>
+			{%- endif %}
 			<td class="venue">
 				{{ entry|venue | replace("Proceedings of the","")}}.
 				{%- if entry.fields['numpages'] %}
 					{{ entry.fields['numpages'] }}pp.
 				{%- endif %}
-			</td></tr>
-			{%- if entry.fields['abstract'] %}
-				<tr><td class="icon">
-				</td>
-			    <td class="abstract">
-				    <b>Abstract:</b>
-					<i>{{ entry.fields['abstract'] |escape }}</i>
-				</td></tr>
-			{%- endif %}
-
-			<tr><td class="icon"></td>
-			<td class="links">
-			{%- for type, url in (entry|extra_urls).items() %}
-				{%- if type == "pdf" %}
-				  [<a href="{{ url|escape }}">
-				   <img width=12px src="img/pdf.gif"/> pdf
-				  </a>]
-
-				  [<a href="papers/{{entry.fields['key']}}.bib">
-				   <img width=12px src="img/bibtex.png"/> bib
-				  </a>]
-				{%- else %}
-				  [<a href="{{ url|escape }}">
-				  {%- if type == "artifact" %}🧑‍💻{%- endif %}
-				  {%- if type == "website" %}🔗{%- endif %}
-				  {%- if type == "github" %}<span class="fa fa-fw fa-github"></span>{%- endif %}
-				  {{ type|escape }}
-				  </a>]
-				{%- endif %}
-
-			{%- endfor %}
 			</td></tr>
 			{%- if entry.fields['award'] %}
 				<tr><td class="icon"><span style="font-size: 80%">&nbsp;🏆</span></td>
@@ -104,6 +83,37 @@
 				<tr><td class="icon"></td>
 			    <td class="note"><b>Note:</b> {{ entry.fields['note_3'] }}</td></tr>
 			{%- endif %}
+			<tr><td class="icon"></td>
+			<td class="links">
+			{%- for type, url in (entry|extra_urls).items() %}
+				{%- if type == "pdf" %}
+				  [<a href="{{ url|escape }}">
+				   <img width=12px src="img/pdf.gif"/> pdf
+				  </a>]
+
+				  [<a href="papers/{{entry.fields['key']}}.bib">
+				   <img width=12px src="img/bibtex.png"/> bib
+				  </a>]
+				{%- else %}
+                    {%- if not type.startswith('artifact-badge') %}
+						[<a href="{{ url|escape }}">
+						{%- if type == "artifact" %}🧑‍💻{%- endif %}
+						{%- if type == "website" %}🔗{%- endif %}
+						{%- if type == "github" %}<span class="fa fa-fw fa-github"></span>{%- endif %}
+						{%- if type == "slides" %}🧑‍🏫{%- endif %}
+						{{ type|escape }}
+						</a>]
+				    {%- endif %}
+				{%- endif %}
+			{%- endfor %}
+			{%- for type, url in (entry|extra_urls).items() %}
+				{%- if type.startswith('artifact-badge') %}
+				    {%- if type.endswith('available') %}<a href="https://dl.acm.org/artifacts/software"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_available_dl.jpg" width="16"></a>{%- endif %}
+					{%- if type.endswith('functional') %}<a href="https://dl.acm.org/artifacts/software"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_functional_dl.jpg" width="16"></a>{%- endif %}
+					{%- if type.endswith('reusable') %}<a href="https://dl.acm.org/artifacts/software"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_reusable_dl.jpg" width="16"></a>{%- endif %}
+				{%- endif %}
+			{%- endfor %}
+			</td></tr>
 			</table>
 		</td>
 	</tr>
