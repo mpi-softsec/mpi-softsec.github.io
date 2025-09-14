@@ -11,7 +11,7 @@
 			{% set _ = prev_year.update({'val': entry.fields['year']}) %}
 			<span class="series">{{ entry.fields['series'] | replace("\\&", "&") }}</span>
 			{%- if entry.fields['award'] %}
-				<br/><center><big>🏆</big></center>
+				<br/><center><div style="font-size: 200%">🏆</div></center>
 			{%- endif %}
 		</td>
 		<td class="publication">
