@@ -32,7 +32,15 @@
 				{%- endif %}
 
 				</td>
-				<td class="pubtitle">{{ entry|title }}.</td>
+				<td class="pubtitle">{{ entry|title }}.&nbsp;
+				{%- for type, url in (entry|extra_urls).items() %}
+					{%- if type.startswith('artifact-badge') %}
+						{%- if type.endswith('available') %}<a href="https://dl.acm.org/artifacts/software"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_available_dl.jpg" width="16"></a>{%- endif %}
+						{%- if type.endswith('functional') %}<a href="https://dl.acm.org/artifacts/software"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_functional_dl.jpg" width="16"></a>{%- endif %}
+						{%- if type.endswith('reusable') %}<a href="https://dl.acm.org/artifacts/software"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_reusable_dl.jpg" width="16"></a>{%- endif %}
+					{%- endif %}
+				{%- endfor %}
+				</td>
 			</tr>
 			<tr><td class="icon"><a href="papers/{{entry.fields['key']}}.bib"><img src="img/bibtex.png"/></a></td>
 			<td class="authors">
@@ -108,13 +116,6 @@
 						{{ type|escape }}
 						</a>]
 				    {%- endif %}
-				{%- endif %}
-			{%- endfor %}
-			{%- for type, url in (entry|extra_urls).items() %}
-				{%- if type.startswith('artifact-badge') %}
-				    {%- if type.endswith('available') %}<a href="https://dl.acm.org/artifacts/software"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_available_dl.jpg" width="16"></a>{%- endif %}
-					{%- if type.endswith('functional') %}<a href="https://dl.acm.org/artifacts/software"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_functional_dl.jpg" width="16"></a>{%- endif %}
-					{%- if type.endswith('reusable') %}<a href="https://dl.acm.org/artifacts/software"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_reusable_dl.jpg" width="16"></a>{%- endif %}
 				{%- endif %}
 			{%- endfor %}
 			</td></tr>
