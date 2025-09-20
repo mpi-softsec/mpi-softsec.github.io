@@ -66,6 +66,13 @@ eleonora:
     image: /img/people/eleonora.jpg
     bio: 2024. U of Padova, Italy
 
+pepe:
+    display_name: "José Antonio Zamudio Amaya"
+    webpage: "https://jzamudio.com/"
+    role: intern
+    image: https://cispa.de/person-images/c01joza.jpg
+    bio: CISPA, DE
+
 youngjae:
     display_name: "YoungJae Kim"
     webpage: "https://freddyyj.github.io/"
@@ -97,7 +104,8 @@ tobias:
     display_name: "Tobias Holl"
     webpage: https://tholl.xyz/
     role: grad
-    bio: "PhD student (CASA / RUB)<br/>Main advisor: Kevin Borgolte"
+    bio: "PhD student (CASA 
+       / RUB)<br/>Main advisor: Kevin Borgolte"
 
 #jiayi:
 #    display_name: "Jiayi Jiang"
