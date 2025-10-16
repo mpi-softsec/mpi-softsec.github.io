@@ -32,7 +32,7 @@
 				{%- endif %}
 
 				</td>
-				<td class="pubtitle">{{ entry|title }}.&nbsp;
+				<td class="pubtitle">{{ entry|title }} {%- if not (entry|title).endswith('?') %}.{%- endif %}&nbsp;
 				{%- for type, url in (entry|extra_urls).items() %}
 					{%- if type.startswith('artifact-badge') %}
 						{%- if type.endswith('available') %}<a href="https://dl.acm.org/artifacts/software"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_available_dl.jpg" width="16"></a>{%- endif %}
