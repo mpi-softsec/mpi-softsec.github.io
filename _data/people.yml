@@ -73,6 +73,12 @@ pepe:
     image: https://cispa.de/person-images/c01joza.jpg
     bio: CISPA, DE
 
+#hannah:
+#    display_name: "Hannah Freudenberger"
+#    webpage: "https://www.h-brs.de/de/hannah-freudenberger"
+#    role: intern
+#    bio: Bonn-Rhein-Sieg, DE
+
 youngjae:
     display_name: "YoungJae Kim"
     webpage: "https://freddyyj.github.io/"
