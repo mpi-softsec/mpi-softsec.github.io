@@ -82,7 +82,7 @@ pepe:
 youngjae:
     display_name: "YoungJae Kim"
     webpage: "https://freddyyj.github.io/"
-    role: intern-alumn
+    role: intern-alum
     image: /img/people/youngjae.jpg
     bio: UNIST, South Korea
 
@@ -124,12 +124,12 @@ ruixiang:
     display_name: "Ruixiang Qiang"
     webpage: https://qrxqrx.github.io/
     image: /img/people/ruixiang.jpg
-    role: intern-alumn
+    role: intern-alum
     bio: "Nanjing University, China"
 
 thomas:
     display_name: "Thomas Valentin"
-    role: intern-alumn
+    role: intern-alum
     bio: "ENS Paris-Saclay"
 
 seongmin:
