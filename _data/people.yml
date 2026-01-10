@@ -79,13 +79,6 @@ pepe:
 #    role: intern
 #    bio: Bonn-Rhein-Sieg, DE
 
-youngjae:
-    display_name: "YoungJae Kim"
-    webpage: "https://freddyyj.github.io/"
-    role: intern-alum
-    image: /img/people/youngjae.jpg
-    bio: UNIST, South Korea
-
 yasamin:
     display_name: "Yasamin Golzar"
     webpage: https://www.linkedin.com/in/yasamin-golzar-2bb7a11aa/
@@ -119,18 +112,6 @@ tobias:
 #    image: /img/people/jiayi.jpg
 #    role: intern
 #    bio: "East China Normal University, China"
-
-ruixiang:
-    display_name: "Ruixiang Qiang"
-    webpage: https://qrxqrx.github.io/
-    image: /img/people/ruixiang.jpg
-    role: intern-alum
-    bio: "Nanjing University, China"
-
-thomas:
-    display_name: "Thomas Valentin"
-    role: intern-alum
-    bio: "ENS Paris-Saclay"
 
 seongmin:
     display_name: "Seongmin Lee"
@@ -214,6 +195,25 @@ nikhil:
     role: intern-alum
     bio: "2022. University College London, UK"
 
+youngjae:
+    display_name: "YoungJae Kim"
+    webpage: "https://freddyyj.github.io/"
+    role: intern-alum
+    image: /img/people/youngjae.jpg
+    bio: UNIST, South Korea
+
+ruixiang:
+    display_name: "Ruixiang Qiang"
+    webpage: https://qrxqrx.github.io/
+    image: /img/people/ruixiang.jpg
+    role: intern-alum
+    bio: "Nanjing University, China"
+
+thomas:
+    display_name: "Thomas Valentin"
+    role: intern-alum
+    bio: "ENS Paris-Saclay"
+    
 yasamin1:
     display_name: "Yasamin Golzar"
     webpage: https://www.linkedin.com/in/yasamin-golzar-2bb7a11aa/
