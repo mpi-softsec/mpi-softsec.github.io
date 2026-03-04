@@ -66,18 +66,11 @@ eleonora:
     image: /img/people/eleonora.jpg
     bio: 2024. U of Padova, Italy
 
-pepe:
-    display_name: "José Antonio Zamudio Amaya"
-    webpage: "https://jzamudio.com/"
+hannah:
+    display_name: "Hannah Freudenberger"
+    webpage: "https://www.h-brs.de/de/hannah-freudenberger"
     role: intern
-    image: https://cispa.de/person-images/c01joza.jpg
-    bio: CISPA, DE
-
-#hannah:
-#    display_name: "Hannah Freudenberger"
-#    webpage: "https://www.h-brs.de/de/hannah-freudenberger"
-#    role: intern
-#    bio: Bonn-Rhein-Sieg, DE
+    bio: Bonn-Rhein-Sieg, DE
 
 yasamin:
     display_name: "Yasamin Golzar"
@@ -195,6 +188,13 @@ nikhil:
     role: intern-alum
     bio: "2022. University College London, UK"
 
+pepe:
+    display_name: "José Antonio Zamudio Amaya"
+    webpage: "https://jzamudio.com/"
+    role: intern-alum
+    image: https://cispa.de/person-images/c01joza.jpg
+    bio: CISPA, DE
+    
 youngjae:
     display_name: "YoungJae Kim"
     webpage: "https://freddyyj.github.io/"
