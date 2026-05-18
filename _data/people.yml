@@ -66,6 +66,13 @@ eleonora:
     image: /img/people/eleonora.jpg
     bio: 2024. U of Padova, Italy
 
+giorgi:
+    display_name: "Giorgi Merabishvili"
+    webpage: "https://giorgix121.github.io/"
+    image: /img/people/giorgi.jpg
+    role: intern
+    bio: NC State U, USA
+
 hannah:
     display_name: "Hannah Freudenberger"
     webpage: "https://www.h-brs.de/de/hannah-freudenberger"
