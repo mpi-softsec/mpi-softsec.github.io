@@ -73,11 +73,12 @@ giorgi:
     image: /img/people/giorgi.jpg
     bio: NC State U, USA
 
-hannah:
-    display_name: "Hannah Freudenberger"
-    webpage: "https://www.h-brs.de/de/hannah-freudenberger"
+arjun:
+    display_name: "Arjun Sekar"
+    webpage: "https://www.linkedin.com/in/arjunsekar2004/"
     role: intern
-    bio: Bonn-Rhein-Sieg, DE
+    image: /img/people/arjun.jpg
+    bio: IIT Gandhinagar, India
 
 yasamin:
     display_name: "Yasamin Golzar"
@@ -195,12 +196,18 @@ nikhil:
     role: intern-alum
     bio: "2022. University College London, UK"
 
+hannah:
+    display_name: "Hannah Freudenberger"
+    webpage: "https://www.h-brs.de/de/hannah-freudenberger"
+    role: intern-alum
+    bio: 2026. Bonn-Rhein-Sieg, DE
+
 pepe:
     display_name: "José Antonio Zamudio Amaya"
     webpage: "https://jzamudio.com/"
     role: intern-alum
     image: https://cispa.de/person-images/c01joza.jpg
-    bio: CISPA, DE
+    bio: 2026. CISPA, DE
     
 youngjae:
     display_name: "YoungJae Kim"
